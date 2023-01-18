@@ -35,14 +35,21 @@ Agora tutorships es una plataforma que conecta a estudiantes con tutores para re
 <img src="./.img/model.png">
 
 
-## Cosas por hacer o mejorar
+## El trabajo que te toca hacer
 
+El proyecto es un MVP que ya está terminado, pero hay algunas funcionalidades que no están implementadas y existen algunas desiciones tecnicas que no fueron las mas acertadas. Tu trabajo es implementar las siguientes funcionalidades:
+
+- [ ] Crear un repositorio en GitHub para cada uno de los proyectos (client y server). Este repositorio debe ser publico y debe tener como colaboradores a los instructores del curso. El nombre del repositorio debe ser `agora-tutorships-<client o server>`.
+- [ ] Ejecutar el proyecto en tu computador y familiarizarte con el código.
+- [ ] Adicionar reglas de ESLint al proyecto (airbnb, standarjs) y correr el linter para que el codigo siga esas reglas.
+- [ ] Aplicar i18n (multiples idiomas).
+- [ ] Agregar filtros de busqueda al cliente.
 - [ ] Migrar sistema de pagos a Stripe.
 - [ ] Migrar uso de redux a redux-toolkit.
+- [ ] Modificar la carga de imagenes desde el backend haciendo uso de la libreria multer
+- [ ] Agregar sistema de chat para que los estudiantes y tutores puedan comunicarse (websockets).
 - [ ] Calendarios y gestion automática de citas.
-- [ ] Filtros de busqueda.
 - [ ] Realizar las videosllamadas dentro de la plataforma (webRTC).
 - [ ] Edicion de fotos de perfil.
-- [ ] Aplicar i18n (multiples idiomas).
-- [ ] Agregar sistema de chat para que los estudiantes y tutores puedan comunicarse (websockets).
-- [ ] Agregar funcionalidad para que los estudiantes puedan pagar por las tutorías.
+
+Sientete libre de agregar cualquier funcionalidad que creas que pueda mejorar la experiencia de usuario.
