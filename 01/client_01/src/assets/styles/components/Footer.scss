@@ -1,0 +1,47 @@
+$primary-color: #22B8D9;
+$primary-color-dark: #1c8ca5;
+$secondary-color: #FFFFFF;
+$secondary-color-dark: #e2e2e2;
+
+
+.footer{
+  font-family: 'Open Sans';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 100px;
+  margin: auto;
+  border-top: 2px solid $primary-color;
+  color: $primary-color;
+  letter-spacing: 1px;
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+
+.footer__social{
+  font-size: 38px;
+  display: flex;
+  gap: 10px;
+}
+
+.footer__social > a > svg{
+  color: $primary-color;
+}
+
+.footer__message{
+  top: 40px;
+  order: 1;
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 1025px){
+    .footer{
+      flex-wrap: nowrap;
+    }
+    .footer__message{
+      order: 0;
+      width: initial;       
+    }
+}
