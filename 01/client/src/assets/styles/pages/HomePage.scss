@@ -1,0 +1,17 @@
+.homepage-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .homepage-content {
+    margin: 0px 0px 60px;
+    width: 990px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .homepage-content {
+    width: 1150px;
+  }
+}

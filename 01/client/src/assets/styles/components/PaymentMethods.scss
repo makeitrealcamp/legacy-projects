@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700;900&display=swap');
+
+$subtitle-color: #5b5b5b;
+$title-color: #3f3f3f;
+$color-a: #22b8d9;
+$color-b: rgb(41, 202, 103);
+$font-weight: 400;
+$font-selected-weight: 800;
+$border-width: 2px;
+$spacing: 30px;
+$input-height: 45px;
+$input-margin: 10px 0px;
+$warning-color: rgb(235, 99, 99);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.swal__actions {
+  width: 90%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.swal__confirm {
+  width: 80px;
+  height: 40px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  color: white;
+  font-size: 0.9rem;
+  background-color: $color-b;
+  border: none;
+  border-radius: 4px;
+}
+
+.swal__cancel {
+  width: 80px;
+  height: 40px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  color: white;
+  font-size: 0.9rem;
+  background-color: $warning-color;
+  border: none;
+  border-radius: 4px;
+}
+
+.swal__delete {
+  width: 80px;
+  margin: 20px;
+  height: 40px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  color: white;
+  font-size: 0.9rem;
+  background-color: $warning-color;
+  border: none;
+  border-radius: 4px;
+}
+
+.swal__delete-cancel {
+  width: 80px;
+  margin: 20px;
+  height: 40px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  color: white;
+  font-size: 0.9rem;
+  background-color: $subtitle-color;
+  border: none;
+  border-radius: 4px;
+}
+
+.swal__title {
+  font-family: 'Open Sans';
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.swal__text {
+  font-family: 'Open Sans';
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.payment-method__page-body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans';
+  box-sizing: border-box;
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+}
+
+.payment-method__photo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.payment-method__photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.payment-method__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.payment-method__credit-card-title {
+  font-family: 'Open Sans';
+  margin-bottom: 40px;
+}
+
+.payment-method__card-form {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.payment-method__errors {
+  color: $warning-color;
+  margin-bottom: 20px;
+}
+
+.payment-method__form-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  input {
+    box-sizing: border-box;
+    padding: 0px 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: $input-height;
+    border: 1px solid $subtitle-color;
+    text-align: left;
+    margin: $input-margin;
+    color: $subtitle-color;
+    font-family: 1rem;
+    font-family: 'Open Sans';
+    font-weight: 600;
+  }
+  label {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: $subtitle-color;
+  }
+  .payment-method__errors {
+    color: $warning-color;
+    margin-bottom: 20px;
+  }
+}
+
+.payment-method__cvc-form-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
+  input {
+    box-sizing: border-box;
+    padding: 0px 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: $input-height;
+    border: 1px solid $subtitle-color;
+    text-align: left;
+    margin: $input-margin;
+    color: $subtitle-color;
+    font-family: 1rem;
+    font-family: 'Open Sans';
+    font-weight: 600;
+  }
+  label {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: $subtitle-color;
+  }
+}
+
+.payment-method__card-form-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  input,
+  select {
+    box-sizing: border-box;
+    padding: 0px 10px;
+    padding-left: 10px;
+    width: 90%;
+    height: $input-height;
+    border: 1px solid $subtitle-color;
+    text-align: center;
+    margin: $input-margin;
+    margin-right: 8px;
+    color: $subtitle-color;
+    font-family: 1rem;
+    font-family: 'Open Sans';
+    font-weight: 600;
+  }
+  label {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: $subtitle-color;
+  }
+  .payment-method__hidden {
+    visibility: hidden;
+  }
+}
+
+.payment-method__id-num-form-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  input {
+    box-sizing: border-box;
+    padding: 0px 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: $input-height;
+    border: 1px solid $subtitle-color;
+    text-align: left;
+    margin: $input-margin;
+    color: $subtitle-color;
+    font-family: 1rem;
+    font-family: 'Open Sans';
+    font-weight: 600;
+  }
+  label {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: $subtitle-color;
+  }
+}
+
+.payment-method__id-type-form-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+  input,
+  select {
+    box-sizing: border-box;
+    padding: 0px 10px;
+    padding-left: 10px;
+    width: 90%;
+    height: $input-height;
+    border: 1px solid $subtitle-color;
+    text-align: left;
+    margin: $input-margin;
+    color: $subtitle-color;
+    font-family: 1rem;
+    font-family: 'Open Sans';
+    font-weight: 600;
+  }
+  label {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: $subtitle-color;
+  }
+}
+
+.payment-method__button-container {
+  display: flex;
+  width: 100%;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.payment-method__button-add {
+  background-color: white;
+  color: $color-b;
+  border: $border-width solid $color-b;
+  height: 40px;
+  margin: 0px 0px 40px 0px;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: $font-selected-weight;
+  letter-spacing: 1px;
+  &:hover:enabled {
+    background-color: $color-b;
+    color: white;
+    border: $border-width solid $color-b;
+    cursor: pointer;
+  }
+  &:disabled {
+    color: $subtitle-color;
+    border: $border-width solid $subtitle-color;
+  }
+}
+
+.payment-method__button-cancel {
+  background-color: white;
+  color: $warning-color;
+  border: $border-width solid $warning-color;
+  height: 40px;
+  margin: 0px 0px 40px 20px;
+  width: 50%;
+  font-size: 1.2rem;
+  font-weight: $font-selected-weight;
+  letter-spacing: 1px;
+  &:hover:enabled {
+    background-color: $warning-color;
+    color: white;
+    border: $border-width solid $warning-color;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 992px) {
+  .payment-method__page-body {
+    font-family: 'Open Sans';
+    box-sizing: border-box;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 50px;
+  }
+
+  .payment-method__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .payment-method__button-photo-disabled {
+    margin-left: 30px;
+    font-weight: 700;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    width: 180px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .payment-method-dashboard__body {
+    width: 27%;
+    position: sticky;
+    top: 191px;
+  }
+}

@@ -1,0 +1,143 @@
+$primary-color-dark: #1a90aa;
+$primary-color: #22b8d9;
+$secondary-color: #ffffff;
+$secondary-color-dark: #d3d3d3;
+$alpha-background: #55555555;
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.login-form-container {
+  font-family: 'Open Sans';
+  min-height: 700px;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $primary-color;
+  color: black;
+  padding: 20px;
+}
+
+.login-form__legend {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.login-login-fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  border: none;
+  margin: 0;
+}
+
+.login-signup-fieldset {
+  height: 20%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.login-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.login-form__submit {
+  border-radius: 5px;
+  margin-bottom: 30px;
+  width: 90%;
+  background-color: $primary-color;
+  border: none;
+  padding: 15px;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-input__label {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.login-input__input {
+  height: 40px;
+  width: 100%;
+  padding-left: 30px;
+  justify-content: flex-start;
+  font-size: 20px;
+}
+
+.input-container__input {
+  display: flex;
+}
+
+.login-input__icon {
+  align-self: center;
+  position: absolute;
+  margin-left: 10px;
+  color: gray;
+}
+
+.signup__text {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.input-container__error-message {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.email-error-span,
+.password-error-span {
+  height: 30px;
+}
+
+.login-form__submit.disabled {
+  background-color: $primary-color-dark;
+  cursor: auto;
+}
+
+@media (min-width: 768px) {
+  .login-form-container {
+    height: 80vh;
+  }
+
+  .login-form {
+    width: 50%;
+  }
+}
+
+@media screen and(min-width: 992px) {
+  .login-form {
+    width: 35vw;
+  }
+  .signup__text {
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and(min-width: 1200px) {
+  .login-form-container {
+    height: 80vh;
+  }
+  .signup__text {
+    font-size: 1rem;
+  }
+}
