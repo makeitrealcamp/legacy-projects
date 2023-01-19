@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700;900&display=swap');
+
+$primary-color: #22b8d9;
+$secondary-color: #ffffff;
+$primary-color-dark: #1a90aa;
+$color-b: rgb(41, 202, 103);
+$subtitle-color: #5b5b5b;
+$title-color: #3f3f3f;
+$color-a: #22b8d9;
+$font-weight: 400;
+$font-selected-weight: 800;
+$border-width: 2px;
+$spacing: 30px;
+$warning-color: rgb(235, 99, 99);
+
+.tutorsschedule-main {
+  font-family: 'Open Sans';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+  width: 90%;
+  font-size: 16px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.15);
+}
+
+.tutorsschedule-main > h1 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 20px;
+}
+
+// .tutorsschedule-form {
+//   display: flex;
+//   flex-direction: column;
+//   width: 80%;
+//   font-size: 1.4rem;
+//   gap: 10px;
+// }
+
+.tutorsschedule-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  input {
+    box-sizing: border-box;
+    padding: 0px 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 54px;
+    border: 1px solid $subtitle-color;
+    text-align: left;
+    margin: 20px 0;
+    color: $subtitle-color;
+    font-size: 1rem;
+    font-family: 'Open Sans';
+    font-weight: 600;
+  }
+  label {
+    font-size: 1.1rem;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: $subtitle-color;
+  }
+  textarea {
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    font-weight: 600;
+    color: $subtitle-color;
+    box-sizing: border-box;
+    height: 200px;
+    width: 100%;
+    padding: 10px 10px;
+    margin: 20px 0px;
+    resize: none;
+  }
+  .tutor-edit__errors {
+    color: $warning-color;
+    margin-bottom: 20px;
+  }
+}
+
+// .tutorsschedule-form > label {
+//   font-size: 1.4rem;
+// }
+
+// .tutorsschedule-form > input {
+//   height: 50px;
+//   font-size: 1.4rem;
+//   padding: 0 2px;
+//   flex: 1 1;
+// }
+
+// .tutorsschedule-form > input:focus {
+//   outline: none;
+// }
+
+// .tutorsschedule-form > textarea {
+//   padding: 0 2px;
+//   font-size: 1.4rem;
+//   height: 200px;
+//   resize: none;
+// }
+
+// .tutorsschedule-form > textarea:focus {
+//   outline: none;
+// }
+
+.tutorsschedule-form > button {
+  background-color: white;
+  color: $color-b;
+  border: $border-width solid $color-b;
+  height: 40px;
+  margin: 35px 0px 45px 0px;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: $font-selected-weight;
+  letter-spacing: 1px;
+  &:hover:enabled {
+    background-color: $color-b;
+    color: white;
+    border: $border-width solid $color-b;
+    cursor: pointer;
+  }
+  &:disabled {
+    color: $subtitle-color;
+    border: $border-width solid $subtitle-color;
+  }
+}
+
+.tutorsschedule-main > img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 20px 20px 40px 20px;
+}
+
+.tutorsschedule-form > span {
+  color: red;
+}
+
+@media screen and(min-width: 992px) {
+  .tutorsschedule-main {
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.15);
+    width: 50vw;
+    padding: 20px;
+    margin: 20px auto;
+  }
+}

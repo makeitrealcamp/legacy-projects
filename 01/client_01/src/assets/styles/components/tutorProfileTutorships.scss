@@ -1,0 +1,314 @@
+$subtitle-color: #5b5b5b;
+$title-color: #3f3f3f;
+$color-a: #22b8d9;
+$color-b: rgb(41, 202, 103);
+$font-weight: 400;
+$font-selected-weight: 800;
+$border-width: 2px;
+$spacing: 30px;
+$warning-color: rgb(235, 99, 99);
+
+.tutor__tutorships-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tutor__tutorships__title {
+  margin: 60px 20px;
+  font-family: open sans;
+  color: $subtitle-color;
+  font-weight: 600;
+  text-align: center;
+}
+
+.tutor__tutorship-container {
+  width: 100%;
+  padding: 15px;
+  background-color: white;
+  margin: 5px 0;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  gap: 10px;
+  color: black;
+  box-shadow: 0 0 5px 2px rgb(161, 161, 161);
+}
+
+.tutor__tutorship__image-container {
+  width: 90px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.tutor__tutorship__image {
+  border-radius: 50%;
+  margin-right: 30px;
+  justify-self: left;
+  min-width: 90px;
+  min-height: 90px;
+  max-width: 90px;
+  max-height: 90px;
+  object-fit: cover;
+}
+
+.tutor__tutorships-title {
+  margin: 20px 0;
+  font-family: open sans;
+  color: $color-b;
+  font-weight: normal;
+}
+
+.tutor__tutorship__description-container {
+  font-size: 0.9rem;
+  font-family: open sans;
+  width: 80%;
+}
+
+.tutor__tutorship__description-title {
+  font-size: 1.1rem;
+  color: #5b5b5b;
+}
+
+.tutor__tutorship__buttons-container {
+  display: flex;
+  gap: 10px;
+}
+
+.tutor__tutorship__status-and-buttons-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  height: 70px;
+  flex-direction: column;
+}
+
+.tutor__tutorship__buttons__pay-button,
+.tutor__tutorship__buttons__cancel-button,
+.tutor__tutorship__buttons__contact-button,
+.tutor__tutorship__buttons__rate-button,
+.tutor__tutorship__buttons__complete-button {
+  padding: 5px;
+  background-color: white;
+  border: 2px solid green;
+  text-decoration: none;
+  color: $color-a;
+  width: 50%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.tutor__tutorship__buttons__pay-button {
+  border: 3px solid $color-b;
+  color: $color-b;
+}
+.tutor__tutorship__buttons__pay-button:hover {
+  background-color: $color-b;
+  color: white;
+}
+
+.tutor__tutorship__buttons__cancel-button {
+  border: 3px solid red;
+  color: red;
+}
+.tutor__tutorship__buttons__cancel-button:hover {
+  background-color: red;
+  color: white;
+}
+
+.tutor__tutorship__buttons__contact-button {
+  border: 3px solid blue;
+  color: blue;
+}
+.tutor__tutorship__buttons__contact-button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.tutor__tutorship__buttons__rate-button {
+  border: 3px solid rgb(199, 199, 0);
+  color: rgb(199, 199, 0);
+}
+.tutor__tutorship__buttons__rate-button:hover {
+  background-color: rgb(199, 199, 0);
+  color: white;
+}
+
+.tutor__tutorship__buttons__complete-button {
+  border: 3px solid $color-b;
+  color: $color-b;
+}
+
+.tutor__tutorship__buttons__complete-button:hover {
+  background-color: $color-b;
+  color: white;
+}
+
+.tutor__tutorship__date,
+.tutor__tutorship__status {
+  color: #979797;
+}
+
+.swal-button {
+  border: 0;
+  border-radius: 0.25em;
+  background: initial;
+  color: #fff;
+  font-size: 1em;
+  padding: 10px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.swal-button:hover {
+  cursor: pointer;
+}
+
+.green {
+  background-color: lime;
+}
+
+.red {
+  background-color: red;
+}
+.swal2-icon.swal2-danger {
+  border-color: red;
+  color: red;
+}
+
+.tutorCancelTutorship-container {
+  font-family: open sans;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  h1 {
+    color: red;
+  }
+}
+.tutorRateTutorship-container {
+  font-family: open sans;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  h1 {
+    color: #f8bb86;
+  }
+}
+
+.star-rating {
+  button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 5rem;
+  }
+  .on {
+    color: #f8da86;
+  }
+  .off {
+    color: #ccc;
+  }
+}
+
+.tutorCancelTutorship-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  button {
+    width: 40%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+}
+
+.cancel-tutorship-button {
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.tutorRateTutorship-submit-button {
+  width: 80px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.tutorRateTutorship-buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tutorRateTutorship-textarea {
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+  padding: 0 3px;
+  font-size: 1.1rem;
+}
+
+.tutorRateTutorship-textarea:focus {
+  outline: none;
+}
+
+@media screen and(min-width: 992px) {
+  .tutor__tutorship-container {
+    width: 95%;
+    flex-direction: row;
+    gap: 0;
+    text-align: left;
+    align-items: center;
+  }
+  .tutor__tutorship__status-and-buttons-container {
+    flex-direction: row;
+  }
+  .tutor__tutorship__image-container {
+    width: 140px;
+  }
+  .tutor__tutorship__image {
+    min-width: 120px;
+    min-height: 120px;
+    max-width: 120px;
+    max-height: 120px;
+  }
+  .tutor__tutorship__description-container {
+    font-size: 1.2rem;
+  }
+  .tutor__tutorship__description-title {
+    font-size: 1.3rem;
+  }
+  .tutor__tutorship__status-and-buttons-container {
+    align-items: center;
+  }
+  .tutor__tutorship__buttons__pay-button,
+  .tutor__tutorship__buttons__cancel-button,
+  .tutor__tutorship__buttons__contact-button,
+  .tutor__tutorship__buttons__rate-button {
+    width: 80px;
+  }
+}
