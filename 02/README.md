@@ -47,6 +47,7 @@ El proyecto es un MVP que ya está terminado, pero hay algunas funcionalidades q
 - [ ] Adicionar reglas de ESLint al proyecto (airbnb, standarjs) y correr el linter para que el codigo siga esas reglas.
 - [ ] Implementar una pagina que muestre la lista de todas las fundaciones registradas en el sistema, ademas de un buscador para filtrar las fundaciones por nombre.
 - [ ] Adicionar una pagina de detalle por cada fundacion donde se listen las diferentes mascotas que tienen para adoptar.
+- [ ] Mostrar en el perfil del usuario el estado de la solicitud de adopcion.
 - [ ] Aplicar i18n (multiples idiomas).
 - [ ] Implementar un sistema de comentarios y de Likes (❤️) para los detalles de las mascotas.
 - [ ] Migrar sistema de pagos a Stripe.
