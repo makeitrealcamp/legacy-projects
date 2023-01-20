@@ -1,0 +1,58 @@
+{
+  "name": "top-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.4.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "0.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.13.0",
+    "react-icons": "^4.2.0",
+    "react-redux": "^7.2.5",
+    "react-router": "^5.2.1",
+    "react-router-dom": "^5.2.1",
+    "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.3",
+    "react-table": "^7.7.0",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "sweetalert2": "^11.1.7",
+    "sweetalert2-react-content": "^4.1.1",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "cypress:open": "cypress open"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "cypress": "^8.5.0"
+  }
+}

@@ -1,0 +1,79 @@
+.AdminTable__photos {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  border-radius: 5%;
+}
+.AdminTable__divTable {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  font-size: large;
+}
+
+.AdminTable__td {
+  padding: 3px;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  display: table-cell;
+  font-size: large;
+  text-align: center;
+}
+.AdminTable__td:last-child {
+  border-right: 0;
+}
+
+.AdminTable__th {
+  border-right: 1px solid black;
+}
+.AdminTable__th:last-child {
+  border-right: 0;
+}
+
+.AdminTable__table {
+  border: 1px solid black;
+  border-spacing: 0;
+}
+
+.AdminTable__check {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
+}
+
+.AdminTable__bottomButtons {
+  padding: 10px;
+  margin-top: 5px;
+  margin-right: 3px;
+  border-radius: 50px;
+  background: #3e2f90;
+  color: #fff;
+  white-space: nowrap;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.AdminTable__bottomButtons:disabled {
+  background-color: #f5e9e9;
+  color: rgb(120, 120, 120);
+}
+
+.AdminTable__bottomDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.AdminTable_General {
+  min-height: 100vh;
+  background-image: url("../images/wave-addpet.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}

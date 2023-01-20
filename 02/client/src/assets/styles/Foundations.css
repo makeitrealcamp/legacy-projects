@@ -1,0 +1,82 @@
+.general-foundations {
+  min-height: 100vh;
+  background-image: url("../images/wave-addpet.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.link-foundations {
+  color: inherit;
+  text-decoration: inherit;
+}
+.container-foundations {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: -25px;
+}
+
+.photo-foundations {
+  margin: 10px 10px;
+  width: 300px;
+  position: relative;
+  background-color: var(--alice-blue);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+}
+
+.text-foundations {
+  margin: 5px;
+  font-size: 14pt;
+  text-align: center;
+}
+
+.subtitle-foundations {
+  margin-left: 5px;
+  margin-top: auto;
+  margin-bottom: -5px;
+  font-size: 18pt;
+  font-weight: bold;
+  color: var(--blue-pigment);
+  text-align: center;
+}
+
+.image-foundations {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.title-foundations {
+  font-size: 40pt;
+  font-weight: bold;
+  text-align: center;
+  color: var(--blue-pigment);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.buttons-Foundation {
+  padding: 5px;
+  margin: 5px;
+  background-color: var(--blue-pigment);
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: large;
+  height: 40px;
+}
+
+.buttons-Foundation:disabled {
+  opacity: 0.3;
+}
+
+.container-buttons-foundations {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
