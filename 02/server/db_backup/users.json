@@ -1,0 +1,207 @@
+[{
+  "_id": {
+    "$oid": "61718e0309db6968d4255b9e"
+  },
+  "email": "juanandres@yopmail.com",
+  "password": "$2b$10$5zUg7cyI2kp8bLNZzgvKlOSiCPM81V6wma69OirT7Yb6xgl8Im43.",
+  "name": "Juan Andres",
+  "role": "user",
+  "active": true,
+  "passwordResetToken": null,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634831875714"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1635855122045"
+    }
+  },
+  "__v": 0,
+  "photoUrl": "http://res.cloudinary.com/juanan150/image/upload/v1635855121/uvvdoh7rnovofjnosrr7.png",
+  "address": "cra 123 # 43-65",
+  "phoneNumber": "3201111111",
+  "token_card": "177fda5ee6e5d421d6ad593",
+  "epaycoCustomerId": "177fda5b7a11328db5842f2"
+},{
+  "_id": {
+    "$oid": "617972875d291639a6fcac99"
+  },
+  "email": "juanan0309@gmail.com",
+  "password": "$2b$10$adUL2V4cyGe0hq/auZ1dGuC3iiJf5ZnfXRjdenO2x/ccke5WLbBq2",
+  "name": "Juan Andres",
+  "role": "user",
+  "active": true,
+  "passwordResetToken": null,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1635349127652"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1635349520969"
+    }
+  },
+  "__v": 0,
+  "address": "Cra 1234",
+  "phoneNumber": "3016521734"
+},{
+  "_id": {
+    "$oid": "618aa2e0bbdb997cee28574f"
+  },
+  "email": "fedemp@gmail.com",
+  "password": "$2b$10$tgjB85v6aB3dGP/Rn.aT5OkjatX7cvJRR3kioD6.h.ecen53S2p0.",
+  "name": "Federico Mejía-Posada",
+  "role": "user",
+  "active": true,
+  "passwordResetToken": null,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1636475616582"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1636475674195"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "616f497df9e9847c1fde82a3"
+  },
+  "email": "adminadogta@yopmail.com",
+  "password": "$2b$10$U4k9BGPVDsWG/K9hwJymPehB4MXwmBjzQbBz23i//ppWSbKko8Xh.",
+  "name": "admin",
+  "role": "admin",
+  "active": true,
+  "passwordResetToken": null,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634683261486"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1634683267919"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6179e8ed195069d82015b9c2"
+  },
+  "email": "diegooplata@gmail.com",
+  "password": "$2b$10$/Y2Ayy4kc93CIrif6TVtTOAcI8dixvQ9tMt6kzNPx6/JLzXcpzCXu",
+  "name": "Diego Plata",
+  "role": "user",
+  "active": true,
+  "passwordResetToken": null,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1635379437055"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1635379771007"
+    }
+  },
+  "__v": 0,
+  "address": "Cra 123",
+  "phoneNumber": "3016562110",
+  "token_card": "179e9ef8107fb39e97c9a53",
+  "epaycoCustomerId": "1685fb7af5f8a10de73d46c",
+  "photoUrl": "http://res.cloudinary.com/juanan150/image/upload/v1635379770/kiujglyoj3bqjzsb6gfb.jpg"
+},{
+  "_id": {
+    "$oid": "61718e4609db6968d4255bcb"
+  },
+  "email": "cortesjohnj@gmail.com",
+  "password": "$2b$10$6IKKkJ1aoGILWAoyQ6srQe1IwNN5DmhwFSBPdgCeo85r3WiQeeAMy",
+  "name": "John Jairo Cortes Gómez",
+  "role": "user",
+  "active": true,
+  "passwordResetToken": null,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634831942293"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1636483272006"
+    }
+  },
+  "__v": 0,
+  "address": "calle 106 A # 54-65",
+  "phoneNumber": "3204534334",
+  "photoUrl": "http://res.cloudinary.com/juanan150/image/upload/v1634831975/s9t2jfevduoaxyetlybe.jpg",
+  "token_card": "17190ffe3817941d709aa67",
+  "epaycoCustomerId": "163164001cb9d277f04a853"
+},{
+  "_id": {
+    "$oid": "61ead6b9ec4924f740a23bb9"
+  },
+  "email": "pepito@gmail.com",
+  "password": "$2b$10$glveechD5NY2W6YPkxAuDe4ib5Qa/xe3J60jZwRn2Xzhx6ucWRrdq",
+  "name": "pepito",
+  "role": "user",
+  "active": false,
+  "passwordResetToken": "e033274527e9c54b8b597c9ce63c2367961b2a0280bc4a4722fe64f963237de7",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1642780345560"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1642780345560"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6178154780aeafb84a100901"
+  },
+  "email": "felipe.cadavid3@gmail.com",
+  "password": "$2b$10$POGEbTKhGUyUFZ5nEcf5TuW2XCnoE8b3P6f2j/OcMBHO/db3xwSym",
+  "name": "Felipe Cadavid",
+  "role": "user",
+  "active": true,
+  "passwordResetToken": null,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1635259719494"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1635259829128"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61ead687ec4924f740a23bb1"
+  },
+  "email": "nayruth.calla@gmail.com",
+  "password": "$2b$10$zdjv.mWLcdji2hjwLk9Ap.L9ZsFQTdeCM2yveeys2O.1srRWvC81u",
+  "name": "nayruth",
+  "role": "user",
+  "active": false,
+  "passwordResetToken": "c99c3d9badf3f7a6f2aac0ff0f4d3d6f805c4bf80d820eb17b253de6d1cd8881",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1642780295107"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1642780295107"
+    }
+  },
+  "__v": 0
+}]

@@ -1,0 +1,113 @@
+[{
+  "_id": {
+    "$oid": "6178132980aeafb84a10087e"
+  },
+  "userId": {
+    "$oid": "6178120680aeafb84a100852"
+  },
+  "epaycoCustomerId": "1685fb7af5f8a10de73d46c",
+  "foundationId": {
+    "$oid": "616f3fe689ce7d383d414eac"
+  },
+  "ref_payco": "66261634",
+  "factura": "61781324c27465412d261ca4",
+  "descripcion": "Compra referencia 61781324c27465412d261ca4",
+  "valor": 20000,
+  "iva": 0,
+  "valorneto": 20000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1635259177875"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1635259177875"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6177fdaaf48fc107c99ec83e"
+  },
+  "userId": {
+    "$oid": "61718e0309db6968d4255b9e"
+  },
+  "epaycoCustomerId": "177fda5b7a11328db5842f2",
+  "foundationId": {
+    "$oid": "616f3fe689ce7d383d414eac"
+  },
+  "ref_payco": "66246556",
+  "factura": "6177fda740a9af1e082ae032",
+  "descripcion": "Compra referencia 6177fda740a9af1e082ae032",
+  "valor": 100000,
+  "iva": 0,
+  "valorneto": 100000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1635253674310"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1635253674310"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6179e9f5195069d82015ba02"
+  },
+  "userId": {
+    "$oid": "6179e8ed195069d82015b9c2"
+  },
+  "epaycoCustomerId": "1685fb7af5f8a10de73d46c",
+  "foundationId": {
+    "$oid": "616f3fe689ce7d383d414eac"
+  },
+  "ref_payco": "66491404",
+  "factura": "6179e9f2c9bf8e4b02632b62",
+  "descripcion": "Compra referencia 6179e9f2c9bf8e4b02632b62",
+  "valor": 20000,
+  "iva": 0,
+  "valorneto": 20000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1635379701156"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1635379701156"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6171910f09db6968d4255dc6"
+  },
+  "userId": {
+    "$oid": "61718e4609db6968d4255bcb"
+  },
+  "epaycoCustomerId": "163164001cb9d277f04a853",
+  "foundationId": {
+    "$oid": "616f3fe689ce7d383d414eac"
+  },
+  "ref_payco": "65764235",
+  "factura": "6171910c8c78fb78b377b172",
+  "descripcion": "Compra referencia 6171910c8c78fb78b377b172",
+  "valor": 20000,
+  "iva": 0,
+  "valorneto": 20000,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634832655494"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1634832655494"
+    }
+  },
+  "__v": 0
+}]

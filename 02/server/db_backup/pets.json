@@ -1,0 +1,228 @@
+[{
+  "_id": {
+    "$oid": "616f415289ce7d383d414ec4"
+  },
+  "name": "Luna",
+  "description": "She is a happy little dog",
+  "photoUrl": [
+    "http://res.cloudinary.com/juanan150/image/upload/v1634681169/hb1urpyw65y6foabme6b.jpg"
+  ],
+  "age": 8,
+  "foundationId": {
+    "$oid": "616f3fe689ce7d383d414eac"
+  },
+  "adopted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634681170417"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1634682238914"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61718fe409db6968d4255ce5"
+  },
+  "name": "Tommy",
+  "description": "Tommy likes to play in the morning and in the afternoon likes to be pet",
+  "photoUrl": [
+    "http://res.cloudinary.com/juanan150/image/upload/v1634832355/vr2xlzfvvrnn91xdh56y.jpg",
+    "http://res.cloudinary.com/juanan150/image/upload/v1634832356/rjavb9zp7ppab19smsv1.jpg"
+  ],
+  "age": 8,
+  "foundationId": {
+    "$oid": "616f3fe689ce7d383d414eac"
+  },
+  "adopted": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634832356978"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1635379872704"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61718ba609db6968d4255a99"
+  },
+  "name": "Diva",
+  "description": "Charming and playful rabbit",
+  "photoUrl": [
+    "http://res.cloudinary.com/juanan150/image/upload/v1634831270/ttksnrqp3oocuic0xkgj.jpg"
+  ],
+  "age": 8,
+  "foundationId": {
+    "$oid": "616f3fe689ce7d383d414eac"
+  },
+  "adopted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634831270379"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1634831270379"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6171897709db6968d4255a2a"
+  },
+  "name": "Kira",
+  "description": "Adorable and friendly friend",
+  "photoUrl": [
+    "http://res.cloudinary.com/juanan150/image/upload/v1634830710/v9w3hf8typmfalrbq6ns.jpg"
+  ],
+  "age": 23,
+  "foundationId": {
+    "$oid": "616f3fe689ce7d383d414eac"
+  },
+  "adopted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634830711190"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1634830711190"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617189627ecbc4888cc62665"
+  },
+  "name": "Thor",
+  "photoUrl": [
+    "http://www.petmd.com/sites/default/files/styles/article_image/public/orange-tabby-kitten-walking-across-floor.jpg?itok=ApRxY9_r",
+    ""
+  ],
+  "age": 5,
+  "description": "Lovely cat",
+  "adopted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1632238711190"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1634830711190"
+    }
+  },
+  "foundationId": {
+    "$oid": "61718a3c09db6968d4255a59"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61718a2e09db6968d4255a4c"
+  },
+  "name": "Iris",
+  "description": "Cute and playful cat",
+  "photoUrl": [
+    "http://res.cloudinary.com/juanan150/image/upload/v1634830894/ymio41rr1hpoubw3hwjk.jpg"
+  ],
+  "age": 11,
+  "foundationId": {
+    "$oid": "616f3fe689ce7d383d414eac"
+  },
+  "adopted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634830894290"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1634830894290"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61718ad409db6968d4255a6d"
+  },
+  "name": "Frida",
+  "description": "She likes to play and being around people",
+  "photoUrl": [
+    "http://res.cloudinary.com/juanan150/image/upload/v1634831059/wdh91tre094iz54esb0p.jpg"
+  ],
+  "age": 9,
+  "foundationId": {
+    "$oid": "616f3fe689ce7d383d414eac"
+  },
+  "adopted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634831060194"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1634831060194"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "61718d8709db6968d4255b55"
+  },
+  "name": "Milo",
+  "description": "Adorable and lovely dog to be part of your family",
+  "photoUrl": [
+    "http://res.cloudinary.com/juanan150/image/upload/v1634831751/wzgz89tdzwymfz08cisz.jpg"
+  ],
+  "age": 20,
+  "foundationId": {
+    "$oid": "616f3fe689ce7d383d414eac"
+  },
+  "adopted": true,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634831751894"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1635379897499"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6171bdd4da01928d9f3ed181"
+  },
+  "name": "Rocco",
+  "description": "Lovely westie! Love to run and play",
+  "photoUrl": [
+    "http://res.cloudinary.com/juanan150/image/upload/v1634844116/guiquq9qb58fcuggaewp.jpg"
+  ],
+  "age": 24,
+  "foundationId": {
+    "$oid": "6171bd36da01928d9f3ed16c"
+  },
+  "adopted": false,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634844116772"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1634844116772"
+    }
+  },
+  "__v": 0
+}]

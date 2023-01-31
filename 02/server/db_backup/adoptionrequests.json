@@ -1,0 +1,116 @@
+[{
+  "_id": {
+    "$oid": "6179e966195069d82015b9d6"
+  },
+  "userId": {
+    "$oid": "6179e8ed195069d82015b9c2"
+  },
+  "petId": {
+    "$oid": "61718fe409db6968d4255ce5"
+  },
+  "description": "Quisiera adoptar este lindo perrito!",
+  "responseStatus": "rejected",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1635379558255"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1635379872695"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617973f35d291639a6fcad4d"
+  },
+  "userId": {
+    "$oid": "617972875d291639a6fcac99"
+  },
+  "petId": {
+    "$oid": "61718fe409db6968d4255ce5"
+  },
+  "description": "Quiero adoptar a este perrito! ",
+  "responseStatus": "approved",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1635349491480"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1635379872697"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "617974105d291639a6fcad67"
+  },
+  "userId": {
+    "$oid": "617972875d291639a6fcac99"
+  },
+  "petId": {
+    "$oid": "61718d8709db6968d4255b55"
+  },
+  "description": "Quiero adoptar este perrito!! ",
+  "responseStatus": "rejected",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1635349520966"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1635379897483"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6179e9a1195069d82015b9f5"
+  },
+  "userId": {
+    "$oid": "6179e8ed195069d82015b9c2"
+  },
+  "petId": {
+    "$oid": "61718d8709db6968d4255b55"
+  },
+  "description": "Quisiera adoptarlo!",
+  "responseStatus": "approved",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1635379617565"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1635379897484"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "618ac0c7de33197cd99f6a86"
+  },
+  "userId": {
+    "$oid": "61718e4609db6968d4255bcb"
+  },
+  "petId": {
+    "$oid": "61718ba609db6968d4255a99"
+  },
+  "description": "Me gusta esta mascota",
+  "responseStatus": "pending",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1636483271990"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1636483271990"
+    }
+  },
+  "__v": 0
+}]

@@ -1,0 +1,193 @@
+[{
+  "_id": {
+    "$oid": "6171890309db6968d4255a05"
+  },
+  "email": "fundacionpaitas@yopmail.com",
+  "password": "$2b$10$Ys/YkyjlyouhqtaR9TvZue7/s72S5k7LSggEmNDgtO3NhLPVfw2f.",
+  "name": "Fundacion Patitas",
+  "role": "foundation",
+  "active": true,
+  "passwordResetToken": null,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634830595190"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1634831783371"
+    }
+  },
+  "__v": 0,
+  "address": "Calle 45 # 75 23 Bogotá, Colombia",
+  "phoneNumber": "3002543435",
+  "photoUrl": "http://res.cloudinary.com/juanan150/image/upload/v1634830762/olah3aj5wortxrpbtnkh.jpg"
+},{
+  "_id": {
+    "$oid": "61718a3c09db6968d4255a59"
+  },
+  "email": "fundmascoticas@yopmail.com",
+  "password": "$2b$10$KgD/1QSNC2RebyPvXZZlOuNIrCp1AmmIWSjM0Y5LJ3AQdSGEHQPE6",
+  "name": "Fundacion Mascoticas",
+  "role": "foundation",
+  "active": true,
+  "passwordResetToken": null,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634830908511"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1634831955928"
+    }
+  },
+  "__v": 0,
+  "photoUrl": "http://res.cloudinary.com/juanan150/image/upload/v1634830987/choqjwbtbi3dttv90mho.png",
+  "address": "Cra 78 #12-123 - Barranquilla",
+  "phoneNumber": "3145879866"
+},{
+  "_id": {
+    "$oid": "616f3fe689ce7d383d414eac"
+  },
+  "email": "fundtest@yopmail.com",
+  "password": "$2b$10$N6gWAtTJQufjdQdIovjr3esgpIiemuPRCib2p1ZOm1xlJvfd0yz82",
+  "name": "Fundacion Happy Pets",
+  "role": "foundation",
+  "active": true,
+  "passwordResetToken": null,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634680806742"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1635340397346"
+    }
+  },
+  "__v": 0,
+  "address": "Cra 43 #54sur - 65 - Medellín",
+  "phoneNumber": "32011111111",
+  "photoUrl": "http://res.cloudinary.com/juanan150/image/upload/v1634681420/j55zrft2k3ps0fbxmeiw.png"
+},{
+  "_id": {
+    "$oid": "61718aef09db6968d4255a7a"
+  },
+  "email": "fundcatdog@yopmail.com",
+  "password": "$2b$10$oNYKK54H7bxs628Nc/ek0OLyB.kjj4iVDsHi43LiKBA3gzLX4OBq6",
+  "name": "Fundaction CatDog",
+  "role": "foundation",
+  "active": true,
+  "passwordResetToken": null,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634831087129"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1634832004011"
+    }
+  },
+  "__v": 0,
+  "photoUrl": "http://res.cloudinary.com/juanan150/image/upload/v1634831652/svyfrqokgyb23zcv4tsu.png",
+  "address": "Calle 50a #37-12 - Medellín",
+  "phoneNumber": "3209876543"
+},{
+  "_id": {
+    "$oid": "6171895609db6968d4255a1c"
+  },
+  "email": "fundpelitos@yopmail.com",
+  "password": "$2b$10$dQETzofbsasYQYeCctrVo.K9ciSy9aCgrK/j9qskqxIy7Pzy4tw/2",
+  "name": "Fundacion Pelitos",
+  "role": "foundation",
+  "active": true,
+  "passwordResetToken": null,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634830678351"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1634831936302"
+    }
+  },
+  "__v": 0,
+  "photoUrl": "http://res.cloudinary.com/juanan150/image/upload/v1634830774/i62mzc6rk8x70qvw5k5z.png",
+  "address": "Calle 65 #33-23 - Medellín",
+  "phoneNumber": "3136054785"
+},{
+  "_id": {
+    "$oid": "61718a0609db6968d4255a43"
+  },
+  "email": "fundaciondoggy@yopmail.com",
+  "password": "$2b$10$dfKlxAvcp8gwul8d373tk.Q8vxnalQalE.f3pfWCxfs3xxqBGSw8G",
+  "name": "Fundacion Doggy",
+  "role": "foundation",
+  "active": true,
+  "passwordResetToken": null,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634830854198"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1634831830548"
+    }
+  },
+  "__v": 0,
+  "address": "kilometro 5 # 40-20 Medellín, Colombia",
+  "phoneNumber": "3015434678",
+  "photoUrl": "http://res.cloudinary.com/juanan150/image/upload/v1634830996/ha3ldoq9kyqjkrbubu9u.jpg"
+},{
+  "_id": {
+    "$oid": "61718b8309db6968d4255a90"
+  },
+  "email": "petinhome@yopmail.com",
+  "password": "$2b$10$/rw8EXhI6j1y7o5bp2844eDtfLXJBiPMjk4Hx/CDsrGgFLRzIKHwe",
+  "name": "Pet In Home",
+  "role": "foundation",
+  "active": true,
+  "passwordResetToken": null,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634831235240"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1634831904025"
+    }
+  },
+  "__v": 0,
+  "address": "Avenida 100 # 78 - 09 Ibagué, Colombia",
+  "phoneNumber": "3157894345",
+  "photoUrl": "http://res.cloudinary.com/juanan150/image/upload/v1634831397/fcmvhpggquug7ufxm0jr.jpg"
+},{
+  "_id": {
+    "$oid": "61718c3c09db6968d4255ab2"
+  },
+  "email": "fundlittlefriends@yopmail.com",
+  "password": "$2b$10$BgIRzYd7.eAdeDnoa6tDt.bF6mCB.NsELtSdhZQcUp3l4E4mzaNAe",
+  "name": "Fundacion Little Friends",
+  "role": "foundation",
+  "active": true,
+  "passwordResetToken": null,
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1634831421004"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1634831979503"
+    }
+  },
+  "__v": 0,
+  "address": "Cra 38a #50-12 - Bogotá",
+  "photoUrl": "http://res.cloudinary.com/juanan150/image/upload/v1634831495/dezqiqeitv0njazqpprr.png",
+  "phoneNumber": "3206527789"
+}]
