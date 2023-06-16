@@ -1,0 +1,27 @@
+.userArtistsContainer {
+  margin: 0 auto;
+  margin-top: 6rem;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+}
+.userCardInfo {
+  display: flex;
+  flex-direction: column;
+}
+.cardInfo {
+  margin-bottom: 2rem;
+}
+.userStats {
+  width: 20rem;
+}
+.allPosts {
+  padding: 0 0.5rem;
+  height: 100vh;
+  overflow-y: auto;
+}
+.userMap {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+}

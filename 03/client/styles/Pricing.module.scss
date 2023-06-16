@@ -1,0 +1,20 @@
+.pricing {
+  margin: 0 auto;
+  margin-top: 75px;
+  text-align: center;
+  max-width: 1200px;
+  height: 100vh;
+}
+.cardsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.title {
+  margin-bottom: 2rem;
+}
+.description {
+  margin-bottom: 1rem;
+}
+.segmented {
+  margin-bottom: 3rem;
+}

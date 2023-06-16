@@ -1,0 +1,18 @@
+.search {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 15rem;
+  z-index: 10;
+  input {
+    border-radius: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+  }
+}

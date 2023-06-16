@@ -1,0 +1,41 @@
+.artistsContainer {
+  margin-top: 75px;
+}
+.carousel {
+  max-width: 1200px;
+  margin: 15px auto;
+}
+.carouselNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+.bundleArtists {
+  margin: 2rem auto;
+  max-width: 1200px;
+}
+.headerArtists {
+  margin: 7rem 0 0 0;
+  min-width: 20rem;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    text-align: center;
+  }
+}
+.searcherBar {
+  margin: 0 auto;
+  max-width: 60rem;
+}
+.filterSection {
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  width: 18rem;
+  justify-content: space-between;
+}
+.pagination {
+  margin: 0 auto;
+  width: 10rem;
+}

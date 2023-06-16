@@ -1,0 +1,26 @@
+.contractsContainer {
+  padding: 1rem;
+  max-width: 50rem;
+}
+
+.headerContainers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.acordionContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.artistList {
+  ul {
+    list-style: none;
+  }
+}
+.infoContainerAcor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

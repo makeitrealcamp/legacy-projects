@@ -1,0 +1,28 @@
+.eachinput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.input {
+  width: 25rem;
+}
+.card {
+  margin: 3rem auto;
+  max-width: 45rem;
+}
+.avatarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.passwordConfirmation {
+  margin-bottom: 1.5rem;
+}
+.Container {
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-top: 75px;
+  padding: 2rem 1rem;
+}

@@ -1,0 +1,12 @@
+.chatContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.contactsContainer {
+  min-width: 20rem;
+  ul {
+    list-style: none;
+    overflow-y: auto;
+    padding: 0;
+  }
+}

@@ -1,0 +1,22 @@
+.eachinput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.input {
+  width: 25rem;
+}
+.card {
+  margin: 1.5rem;
+  max-width: 45rem;
+}
+.avatarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.passwordConfirmation {
+  margin-bottom: 1.5rem;
+}

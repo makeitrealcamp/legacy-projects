@@ -1,0 +1,104 @@
+.stepperContract {
+  margin: 0 auto;
+  margin-top: 6rem;
+  max-width: 1200px;
+  height: 100vh;
+}
+.inputContractName {
+  width: 30rem;
+}
+.stepTwoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+.repertoireContainer {
+  padding: 0.5rem;
+}
+.inputsSongs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+.listOfSongs {
+  width: 35rem;
+  height: 20rem;
+  overflow-y: auto;
+}
+.inputs {
+  width: 15.5rem;
+}
+.thead {
+  display: flex;
+  justify-content: space-around;
+}
+.trow {
+  width: 35rem;
+  display: flex;
+  justify-content: space-around;
+  td {
+    display: flex;
+    min-width: 7rem;
+  }
+}
+.noSongsMessage {
+  width: 35rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.datePickersContainer {
+  padding: 0.5rem;
+  width: 35rem;
+  height: 20rem;
+}
+.dateInputs {
+  display: flex;
+  justify-content: space-around;
+}
+.rehearalContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.inputCounterRehearsal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.leftSideContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30rem;
+  height: 20rem;
+}
+.rightSideContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30rem;
+}
+.addressInput {
+  width: 30rem;
+}
+.addressInfo {
+  width: 30rem;
+}
+.acordionContainer {
+  width: 30rem;
+}
+.acordion {
+  width: 100%;
+}
+.cardContainer {
+  display: flex;
+}
+.contractDataContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20rem;
+}

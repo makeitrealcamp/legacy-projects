@@ -1,0 +1,27 @@
+.artistsProfileContainer {
+  margin: 0 auto;
+  margin-top: 6rem;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+}
+.userProfileCardInfo {
+  display: flex;
+  flex-direction: column;
+}
+.cardProfileInfo {
+  margin-bottom: 2rem;
+}
+.userProfileStats {
+  width: 20rem;
+}
+.allProfilePosts {
+  padding: 0 0.5rem;
+  height: 100vh;
+  overflow-y: auto;
+}
+.userProfileMap {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+}

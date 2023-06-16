@@ -1,0 +1,19 @@
+.mapForRegisterContainer {
+  position: relative;
+}
+.logoSillevonMapForRegister {
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  padding: 0.3rem;
+  h2 {
+    margin: 0;
+    font-size: 1rem;
+  }
+}
+.mapForRegister {
+  width: 35rem;
+  height: 30rem;
+  border-radius: 0.5rem;
+}
