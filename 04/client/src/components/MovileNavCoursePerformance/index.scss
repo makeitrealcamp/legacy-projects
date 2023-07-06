@@ -1,0 +1,19 @@
+.main-container-nav-movile-courses-performance{
+    display: none;
+    flex-direction: row;
+    background-color: $black;
+    padding: 4px;
+    .button-hamburguer-nav-movile-courses-performance{
+        background-color: transparent;
+        padding: 12px;
+        color: $white;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+    }
+}
+@media(max-width:750px){
+    .main-container-nav-movile-courses-performance {
+        display: flex;
+    }
+}

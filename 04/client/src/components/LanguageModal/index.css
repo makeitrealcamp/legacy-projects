@@ -1,0 +1,50 @@
+.LanguageModal-container{
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgb(74, 84, 94, .5);
+    color: black;
+}
+.content__container {
+    padding: 30px;
+    background-color: blanchedalmond;
+    /* modificar: original lo deja fijo.*/
+    width: 50%;
+    height: 65%;
+    /************/
+    position: relative;
+    top: 25%;
+    left: 25%;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.main_content{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+div.button {
+    flex-basis: 25%;
+    /* width: 30%; */
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    
+}
+div.button.active {
+    border: 1px solid black;
+}
+h3 {
+    padding: 10px 0;
+}

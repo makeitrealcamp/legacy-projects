@@ -1,0 +1,53 @@
+.nav-user-courses{
+    border-radius: 50%;
+    color: $white;
+
+}
+.container-options-profile{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid gray;
+    a,p{
+        color: $black;
+        padding: 8px 16px;
+        margin: 4px;
+        font-family: $Noto-Sans;
+    }
+    .options-profile-performance{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        svg{
+            font-size: 20px;
+        }
+    }
+
+}
+.options-performance{
+    background-color: $white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 248px;
+    display: flex;
+    flex-direction: column;
+    .btn-menu-options-peformance{
+        width: 100%;
+        padding: 16px;
+        background-color: $white;
+        font-size: 16px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: $Noto-Sans;
+        gap: 20px;
+    }
+    .links-options-peformance{
+        color: $black;
+        font-size: 16px;
+        font-family: $Noto-Sans;
+        padding: 8px 16px;
+    }
+}

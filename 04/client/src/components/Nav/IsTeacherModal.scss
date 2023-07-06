@@ -1,0 +1,44 @@
+.main-container-isteacher-modal{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 2;
+    background-color: $white;
+    top: 20%;
+    left: calc(50% - 140px);
+    width: 280px;
+    border-radius: 10px;
+    padding: 8px;
+    .title-class-edit{
+        font-size: $Noto-Sans;
+        font-size: 14px;
+    }
+}
+
+.isteacher-modal-butn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+    justify-content: space-evenly;
+    .isteacher-modal-btn-yes {
+        font-size: $Noto-Sans;
+        color: $white;
+        background-color: $main-purple;
+        border-radius: 10px;
+        padding: 10px;
+        width: 100px;
+        margin: 0 auto;
+        border: 1px solid;
+        cursor: pointer;
+    }
+    .isteacher-modal-btn-maybelater{
+        font-size: $Noto-Sans;
+        border-radius: 10px;
+        padding: 10px;
+        width: 100px;
+        margin: 0 auto;
+        border: 1px solid $black;
+        cursor: pointer;
+    }
+}

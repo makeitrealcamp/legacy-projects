@@ -1,0 +1,75 @@
+.p-info-overview{
+    font-size: 16px;
+    font-family: $Noto-Sans;
+    font-weight: 400;
+    color: #606062;
+    margin: 30px 0 20px 0;
+}
+.main-container-tabs-overview{
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    border: 1px solid #d1d7dc;
+    margin-bottom: 60px;
+
+    .container-tablist-overview{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 0 24px;
+        gap: 16px;
+        border-bottom: 1px solid #d1d7dc;
+        .react-tabs__tab{
+            opacity: 0.8;
+            cursor: pointer;
+            &:hover{
+                opacity: 1;
+            }
+        }
+        .react-tabs__tab--selected{
+            border-bottom: 2px solid $black;
+            outline: none;
+            opacity: 1;
+        }
+        .container-tab-overview{
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            padding: 8px 4px;
+            .title-tab-overview{
+                font-size: 14px;
+                font-family: $Noto-Sans;
+
+            }
+            .price-tab-overview{
+                font-size: 32px;
+                font-family: $Noto-Sans;
+            }
+            .price-month-tab-overview{
+                font-size: 16px;
+            }
+        }
+    }
+    .container-tab-panel-overview{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 400px;
+    }
+}
+@media(max-width:840px){
+    .main-container-tabs-overview{
+    
+        .container-tablist-overview{
+            padding: 0 10px;
+            min-height: 130px;
+            align-items: center;
+            gap: 2px;
+
+            .container-tab-overview{
+
+                .price-month-tab-overview{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

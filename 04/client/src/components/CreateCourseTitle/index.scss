@@ -1,0 +1,118 @@
+.main-container-create-course {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+  padding: 15px;
+  z-index: 999;
+
+  .main-container-opacity-create-course-title {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $black;
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+  }
+  .container-create-course-title {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+    background-color: $white;
+    border-top: 6px solid #5624d0;
+    padding: 15px;
+    margin-top: 60px;
+
+    .title-create-course-title {
+      font-family: $Noto-Serif-Georgian;
+      font-size: 32px;
+      text-align: center;
+    }
+    .info-create-course-title {
+      font-family: $Noto-Sans;
+      font-size: 16px;
+      margin: 24px 0 40px 0;
+      text-align: center;
+      line-height: 1.4;
+    }
+    .container-input-create-course-title {
+      display: flex;
+      flex-direction: row;
+      padding: 10px;
+      border: 1px solid $black;
+      width: 100%;
+      margin-bottom: 10px;
+
+      input {
+        font-size: 16px;
+        width: 100%;
+        border: none;
+        outline: none;
+        margin-right: 10px;
+      }
+    }
+    .btn-create-course-title {
+      font-family: $Noto-Sans;
+      font-size: 16px;
+      padding: 10px;
+      color: $white;
+      background-color: $black;
+      margin-top: 10px;
+      cursor: pointer;
+      font-weight: 700;
+    }
+    .error-create-course-title{
+      color: red;
+      font-family: $Noto-Sans;
+      font-weight: 700;
+    }
+    .container-loader-createCourse-title{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+.main-container-create-course-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (max-width: 536px) {
+  .main-container-create-course {
+    .container-create-course-title {
+      .title-create-course-title {
+        font-size: 28px;
+      }
+      .info-create-course-title {
+        font-size: 16px;
+      }
+      .container-input-create-course-title {
+        input {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.main-container-course{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    cursor: pointer;
+    gap: 8px;
+    &:hover .main-container-hover-course{
+        bottom: 0;
+    } 
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .course-title{
+        color: $black;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
+        font-size: 16px;
+        padding: 0;
+    }
+    .course-teacher{
+        font-size: 12px;
+        font-family: $Noto-Sans;
+        color: gray;
+    }
+    .course-price{
+        font-family: $Noto-Sans;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .container-rating-course-slider{
+        display: flex;
+        flex-direction: row;
+        .course-number-rating{
+            color:#b4690e;
+            font-family: $Noto-Sans;
+            font-weight: 700;
+            margin-right: 4px;
+            font-size: 14px;
+        }
+    }
+    
+    .widget{
+            stroke: #e59819;
+            stroke-width: 4px;
+            stroke-dasharray: 2,2;
+            stroke-linejoin: round;
+    }
+
+    
+}

@@ -1,0 +1,42 @@
+.main-container-instructor-performance-page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    max-width: 1552px;
+    padding: 20px 56px 0 120px;
+    margin: 0 auto;
+    .ul-performance-instructor{
+        width: max-content;
+        position: fixed;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        top: 30px;
+        left: 78px;
+        @media(max-width:750px){
+                display: none;
+        }
+        .link-performance-instructor{
+            padding: 8px 16px 8px 32px;
+            color:#1c1d1f;
+            font-family: $Noto-Sans;
+            font-weight: 400;
+        }
+        .link-performance-instructor-font-weight-700{
+            color:#1c1d1f;
+            font-weight: 700;
+        }
+    }
+    .title-performance-instructor{
+        font-family: $Noto-Serif-Georgian;
+        font-size: 38px;
+    }
+}
+@media(max-width:750px){
+    .main-container-instructor-performance-page{
+        padding: 0 6px;
+    }
+    .ul-performance-instructo{
+        display: none;
+    }
+}

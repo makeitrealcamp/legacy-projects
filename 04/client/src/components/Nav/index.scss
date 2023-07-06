@@ -1,0 +1,342 @@
+.main-nav{
+    display: flex;
+    flex-direction: row;
+    padding: 0 24px;
+    gap:20px;
+    height: 72px;
+    align-items: center;
+    z-index: 997;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    margin-bottom: 1px;
+    .div-search-movil{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        background-color: $white;
+        z-index: 999;
+        form{
+            display: flex;
+            padding: 4px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+            align-items: center;
+
+        }
+        input{
+            outline: none;
+            border: none;
+            font-size: 16px;
+            width: 100%;
+        }
+        button{
+            opacity: 0.5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            width: 48px;
+            height: 48px;
+        }
+
+    }
+
+    @media(max-width: 800px) {
+        justify-content: space-between;
+        height: 56px;
+    }
+    button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        font-family: $Noto-Sans;
+    }
+    .nav-btn-search-movil{
+        display: none;
+    }
+    .nav-btn-hamburguer-main{
+        display: none;
+    }
+    .nav-logo-udemy{
+        height: 34px;
+        cursor: pointer;
+    }
+    .nav-btn-categories{
+        font-size: 14px;
+        font-weight: 400;
+        height: 100%;
+        background-color: $white;
+        color: $black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        &:hover{
+            color: $main-purple;
+        }
+    }
+    .nav-form{
+        display: flex;
+        flex-direction: row;
+        border:  1px solid $black;
+        border-radius: 30px;
+        width: 100%;
+        padding: 0 24px 0 0;
+        height: 46px;
+        button{
+            border: none;
+            background-color: transparent;
+            width: 48px;
+            opacity: 0.5;
+            height: 48px;
+            font-size: 24px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            svg{
+                margin-bottom: 4px;
+            }
+            &:hover{
+                color: $main-purple;
+            }
+        }
+        input{
+            width: 100%;
+            outline: none;
+            border: none;
+        }
+    }
+    .nav-btn-tech{
+        min-width: 30px;
+        font-size: 14px;
+        opacity: 0.9;
+        &:hover{
+            color: $main-purple;
+        }
+    @media(max-width: 920px) {
+            display: none;
+    }
+
+    }
+    .nav-btn-instructor{
+        &:hover{
+            color: $main-purple;
+        }
+         @media(max-width: 920px) {
+            display: none;
+        }
+    }
+    .nav-btn-learning{
+        min-width: 48px;
+        &:hover{
+            color: $main-purple;
+        }
+    }
+    .nav-btn-favorites{
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+            color: $main-purple;
+        }
+    }
+    .nav-btn-notification{
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &:hover{
+            color: $main-purple;
+        }
+    }
+    .nav-btn-shopping{
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 100%;
+        &:hover{
+            color: $main-purple;
+        }
+        .nav-btn-shopping-num{
+            position: absolute;
+            font-family: $Noto-Sans;
+            font-size: 14px;
+            color: $white;
+            border-radius: 50%;
+            background-color: $main-purple;
+            padding: 4px;
+            top: 5px;
+            width: 24px;
+            height: 24px;
+            right: -8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .nav-search-movil{
+        display: block;
+        width: 100vh;
+        height: 100vh;
+        background-color: blue;
+    }
+    .container-btns{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        .nav-login{
+            border: 1px solid $black;
+            padding: 12px;
+            color: $black;
+            font-size: bold;
+            font-family: $Noto-Sans;
+            font-weight: 700;
+            min-width: 80px;
+            font-size: 14px;
+        }
+        .nav-sing-up{
+            padding:  12px;
+            border: 1px solid $black;
+            background-color: $black;
+            color: $white;
+            font-family: $Noto-Sans;
+            font-weight: 700;
+            font-size: 14px;
+            min-width: 80px;
+            font-size: bold;
+        }
+        .nav-btn-languages{
+            font-size: 16px;
+            border: 1px solid $black;
+            padding: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .displayNone{
+        display: none;
+    }
+    .nav-user{
+        display: inline-flex;
+        border: 1px solid;
+        max-height: 30px;
+        min-width: 30px;
+        height: 100%;
+        border-radius: 50%;
+        background-color: black;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+        &:hover > .nav-options-user{
+            display: flex;
+        }
+        .nav-options-user{
+            display: none;
+            width: 240px;
+            position: absolute;
+            top: 50px;
+            right: 20px;
+            display: none;
+            flex-direction: column;
+            span{
+                width: 100%;
+                height: 30px;
+                display: block;
+                background-color: transparent;
+            }
+            .nav-options{
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                background-color: $white;
+                display: flex;
+                flex-direction: column;
+                padding: 5px;
+                p{
+                    width: 100%;
+                    font-size: 14px;
+                    color: $black;
+                    opacity: 0.8;
+                    font-weight: 400;
+                    padding: 8px 16px;
+                    &:hover{
+                        color: $main-purple;
+                    }
+                }
+                .btn-log-out{
+                    width: 100%;
+                    font-size: 14px;
+                    color: $black;
+                    opacity: 0.8;
+                    font-weight: 400;
+                    padding: 8px 16px;
+                    &:hover{
+                        color: $main-purple;
+                    }
+
+                }
+
+            }
+        }
+    }
+@media(max-width: 800px) {
+        .nav-btn-categories{
+            display: none;
+        }
+        .nav-logo-udemy{
+            height: 30px;
+        }
+        .nav-form{
+            display: none;
+        }
+        .container-btns{
+            display: none;
+        }
+        .nav-user{
+            display: none;
+        }
+        .nav-btn-learning{
+            display: none;
+        }
+        .nav-btn-favorites{
+            display: none;
+        }
+        .nav-btn-notification{
+            display: none;
+        }
+        .nav-btn-search-movil{
+            height: 56px;
+            min-width: 24px;
+            position: absolute;
+            right: 64px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 22px;
+        }
+        .nav-btn-hamburguer-main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+            height: 100%;
+        }
+    }
+
+}
+/*quitar X input Search*/
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+i   nput[type="search"]::-webkit-search-results-decoration {
+display: none;
+}

@@ -1,0 +1,76 @@
+.main-container-learning-tabs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .main-container-title-learning-tabs{
+        background-color: #1c1d1f;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        .container-title-learning-tabs{
+            display: flex;
+            width: 100%;
+            max-width: 1016px;
+            margin: 0 auto;
+            padding: 0 24px;
+            flex-direction: column;
+            padding: 48px 0 0 0;
+            h2{
+                padding: 0 24px;
+                font-weight: 700;
+                margin-bottom: 24px;
+                color: $white;
+                max-width: 600px;
+                font-size: 44px;
+                font-family: $Noto-Serif-Georgian;
+                @media(max-width: 530px){
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+    .container-all-courses-learning-tabs{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .ul-all-courses{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            max-width: 1016px;
+            background-color: #1c1d1f;
+            margin: 0 auto;
+            padding: 0 24px;
+            .li-all-courses{
+                font-size: 16px;
+                font-family: $Noto-Sans;
+                font-weight: 700;
+                color: #d1d7dc;
+                cursor:pointer;
+                margin: 0 14px 0 0;
+                padding: 5px 0 5px 0;
+                outline:none;
+            }
+            .li-all-courses-all-courses{
+                color: $white;
+                background-color: #1c1d1f;
+                border-bottom: 4px solid $white;
+            }
+        }
+        .main-container-tab-panel{
+            display: flex;
+            width: 100%;
+            max-width: 1016px;
+            margin: 0 auto;
+            padding: 24px;
+            min-height: 324px;
+            .container-tab-panel{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}

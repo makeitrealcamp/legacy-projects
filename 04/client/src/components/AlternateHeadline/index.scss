@@ -1,0 +1,35 @@
+.container-alternate{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+.main-alternate{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 0 0px;
+    width: 100%;
+    max-width: 1292px;
+    margin: 10px 24px 20px 24px;
+    border-top: 1px solid grey;
+    h2{
+        font-family: $Noto-Serif-Georgian;
+        font-size: 34px;
+        width: 100%;
+        font-weight: 700;
+    }
+    p{
+        margin-top: 8px;
+        width: 100%;
+        font-weight: 400;
+        font-size: 19px;
+        font-family: $Noto-Sans;
+    }
+}
+@media(max-width:800px){
+    .main-alternate{
+        h2{
+            font-size: 28px;
+        }
+    }
+}
+}

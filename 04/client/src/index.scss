@@ -1,0 +1,66 @@
+@import './styles/abstracts/variables.scss';
+@import './styles/base/resets.scss';
+@import './components/Nav/index.scss';
+@import './components/Nav/options.scss';
+@import './components/Nav/Hamburguer.scss';
+@import './components/TitleHeading/index.scss';
+@import './components/AlternateHeadline/index.scss';
+@import './components/TopCategoriesHome/index.scss';
+@import './components/TopCategoriesHome/ImageTitle.scss';
+@import './components/BecomeInstructorHome/index.scss';
+@import './components/SelectionOfCourses/index.scss';
+@import './components/SelectionOfCourses/Courses.scss';
+@import './components/SelectionOfCourses/Course.scss';
+@import './components/SelectionOfCourses/ButtonArrow.scss';
+@import './components/MyLearningTabs/index.scss';
+@import './components/MyLearningWishListC/index.scss';
+@import './components/MyLearningWishListC/BtnBrowseCourses.scss';
+@import './components/MyLearningTabs/BrowseNow.scss';
+@import './styles/pages/InstructorCourses.scss';
+@import './components/SearchInstructorCourses/index.scss';
+@import './components/EditCourseInstructor/index.scss';
+@import './components/NavCoursesPerformance/index.scss';
+@import './styles/pages/InstructorPerformance.scss';
+@import './components/InstructorPerformanceOverview/index.scss';
+@import './components/InstructorPerformanceStudents/index.scss';
+@import './components/InstructorPerformanceStudents/NotStudents.scss';
+@import './components/MovileNavCoursePerformance/index.scss';
+@import './components/MovileNavCoursePerformance/Hamburguer-courses-performance.scss';
+
+@import './components/CoursesManageNav/index.scss';
+@import './styles/pages/CoursesManage.scss';
+@import './components/TitleManageCourse/index.scss';
+@import './components/LearnInYourCourse/index.scss';
+@import './components/LearnInYourCourse/InputLearn.scss';
+@import './components/ComponentPricing/index.scss';
+@import './components/InputTItleLanding/index.scss';
+@import './styles/pages/quill.scss';
+@import './components/PromotionalSources/index.scss';
+@import './pages/LogIn/LogIn.styles.scss';
+@import './components/CourseInfo/CourseInfo.scss';
+@import './pages/Cart.scss';
+@import './pages/SignUp.styles.scss';
+@import './components/CreateClass/index.scss';
+@import './components/CreateClass/ModalClass.scss';
+@import './components/CreateClass/FormCreateCourse.scss';
+@import './components/Nav/IsTeacherModal.scss';
+@import './components/CartShopItem/index.scss';
+@import './pages/CoursesByCategory/CoursesByCategory.scss';
+@import './components/CourseCard/CourseCard.scss';
+@import './components/FormRegisterAndLogin/index.scss';
+@import './components/LoaderBigUdemy/index.scss';
+@import './components/CreateCourseTitle/index.scss';
+
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: $Noto-Sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

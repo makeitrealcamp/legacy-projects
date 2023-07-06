@@ -1,0 +1,51 @@
+.main-courses-carrusel{
+    border: 1px solid #d1d7dc;
+    padding: 32px;
+    position: relative;
+    margin-top: 16px;
+    .courses-title{
+        margin-bottom: 10px;
+        font-family: $Noto-Serif-Georgian;
+        font-size: 32px;
+    }
+    .courses-info{
+        font-family: $Noto-Sans;
+        font-size: 20px;
+        font-weight: 700;
+        max-width: 800px;
+        margin-bottom: 16px;
+    }
+    .btn-courses{
+        display: flex;
+        font-family: $Noto-Sans;
+        border: 1px solid $black;
+        height: 40px;
+        width: max-content;
+        align-items: center;
+        justify-content: center;
+        padding: 0 12px;
+        color: $black;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 26px;
+        &:hover{
+            background-color: rgba(0,0,0,.04);
+        }
+    }
+    .container-slider{
+        border: 1px solid grey;
+        padding: 10px 0 30px;
+    }
+
+    @media (max-width: 650px) {
+        .courses-title{
+            display: none;
+        }
+        .courses-info{
+            display: none;
+        }
+        .btn-courses{
+            display: none;
+        }
+}
+}

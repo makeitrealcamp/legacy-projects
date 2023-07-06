@@ -1,0 +1,100 @@
+.main-container-heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+.heading-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: -1;
+    max-width: 1340px;
+    align-items: center;
+    .heading-img-phone{
+        display: none;
+    }
+
+    .heading-info{
+        top: 12%;
+        left: 6%;
+        position: absolute;
+        width: 400px;
+        background-color: $white;
+        padding: 24px;
+        box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+    @media (max-width:960px){
+            width: 340px;
+        }
+        .heading-title{
+            font-size: 34px;
+            max-width: 392px;
+            font-family: $Noto-Serif-Georgian;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        .heading-p{
+            font-size: 16px;
+            font-family: $Noto-Sans;
+            font-weight: 400;
+            line-height: 1.4;
+            max-width: 392px;
+        }
+    }
+    
+    .heading-img{
+        display: block;
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+}
+@media(max-width:800px){
+    .heading-container{
+        flex-direction: column;
+        width: 100%;
+        .heading-info{
+            position: relative;
+            width: 100%;
+            left: 0;
+            padding: 0;
+            background-color: $white;
+            padding: 24px;
+            box-shadow: none;
+            padding: 0;
+            padding: 0 24px;
+            margin: 10px 0 16px 0;
+            .heading-title{
+                font-size: 28px;
+                max-width: 100%;
+
+            }
+            .heading-p{
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 1.4;
+                max-width: 100%;
+                opacity: 0.9;
+            }
+
+        }
+        .heading-img{
+            display: none;
+        }
+        .heading-img-phone{
+            display: block;
+            width: 100%;
+            img{
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+                height: 250px;
+            }
+        }
+
+    }
+
+}
+}

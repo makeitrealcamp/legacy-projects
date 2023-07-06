@@ -1,0 +1,170 @@
+
+.nav-opacity{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 998;
+    opacity: 0.75;
+    transition: opacity 100ms linear, transform 0ms linear 100ms;
+
+}
+.nav-hamburguer{
+    position: absolute;
+    height: 100%;
+    z-index: 999;
+    width: 248px;
+    background-color: $white;
+    opacity: 1;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    .main-container-categories-hamburguer{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: $white;
+        .arrow-left-categories-return{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-size: 20px;
+            width: 100%;
+            padding:  8px 10px;
+            opacity: 0.7;
+            p{
+                font-size: 16px;
+                margin-left: 10px;
+            }
+        }
+        a{
+            font-size: 16px;
+             font-weight: 400;
+            color: $black;
+            padding:  8px 16px;
+            opacity: 0.7;
+            }
+    }
+    .container-nav-user-hamburguer{
+        border-bottom: 1px solid grey;
+    }
+    .nav-hamburguer-learnig{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        p{
+        font-size: 16px;
+         font-weight: 400;
+        color: $black;
+        padding:  8px 16px;
+        opacity: 0.7;
+        }
+        .container-categories-arrow{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            svg{
+                font-size: 20px;
+                opacity: 0.7;
+            }
+        }
+    }
+    .nav-user-hamburguer{
+        padding: 16px;
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        .nav-user{
+            display: flex;
+            font-family: $Noto-Sans;
+            font-weight: 700;
+            font-size: 24px;
+            justify-content: center;
+            align-items: center;
+            width: 64px;
+            min-width: 64px;
+            min-height: 64px;
+            border-radius: 50%;
+            color: $white;
+            background-color: $black;
+        }
+        .info-user-nav{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 5px;
+            width: 100%;
+            max-width: 150px;
+            font-size: 16px;
+            text-align: justify;
+            font-weight: 700;
+            p{
+                font-size: 14px;
+                opacity: 0.5;
+            }
+            .container-info-user-nav-name{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                .info-user-nav-name{
+                    color: $black;
+                    opacity: 1;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: normal;
+                }
+                p{
+                    opacity: 1;
+                }
+            }
+        }
+
+    }
+    .register-nav-hamburguer{
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        border-bottom: 1px solid grey;
+        a{
+            font-size: 16px;
+            color: $main-purple;
+            padding: 8px 0;
+        }
+    }
+}
+.nav-close{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    color: $black;
+    top: 10;
+    left: 258px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    z-index: 999;
+    background-color: $white;
+    font-size: 24px;
+    svg{
+        pointer-events: none;
+    }
+}
+
+// p{
+//     font-size: 16px;
+//     font-weight: 700;
+//     color: $black;
+//     opacity: 0.5;
+// }

@@ -1,0 +1,89 @@
+.main-container-nav-courses-performance{
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 56px;
+    background-color: #1c1d1f;
+    transition: width 400ms linear;
+    &:hover .link-img-nav-courses-performance::after{
+        opacity: 0;
+        width: 200px;
+    }
+    &:hover .link-img-nav-courses-performance .img-nav-courses-performance{
+        pointer-events: all;
+    }
+    &:hover{
+        width: 250px;
+    }
+    &:hover .ul-nav-courses-performance .li-nav-courses-performance .link-nav-courses-performance .item-nav-courses-performance{
+        opacity: 1;
+
+    }
+    .link-img-nav-courses-performance{
+        pointer-events: none;
+        .img-nav-courses-performance{
+            margin-left: 8px;
+            width: 110px;
+            object-fit: cover;
+            pointer-events: none;
+            padding: 16px;
+        }
+        &::after{
+            content: '';
+            display: block;
+            position: absolute;
+            top: 18px;
+            left: 36px;
+            height: 2rem;
+            width: 20px;
+            background-color: #1c1d1f;
+            opacity: 1;
+            pointer-events: unset;
+            transition: opacity 400ms linear;
+            transition: width 400ms linear;
+            pointer-events: none;
+        }
+    }
+    .ul-nav-courses-performance{
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        .li-nav-courses-performance{
+            &:hover{
+                background-color: #3e4143;
+            }
+            padding: 16px;
+            .link-nav-courses-performance{
+                display: flex;
+                flex-direction: row;
+                color: $white;
+                align-items: center;
+                font-size: 18px;
+                svg{
+                    min-width: 24px;
+                    height: 100%;
+                    min-height: 24px;;
+                }
+                .item-nav-courses-performance{
+                    opacity: 0;
+                    font-size: 14px;
+                    font-family: $Noto-Sans;
+                    font-weight: 700;
+                    pointer-events: none;
+                    padding: 0 0 0 18px;
+                    transition: opacity 400ms linear;
+                }
+            }
+        }
+        .border-left-courses-performance{
+            box-shadow: 4px 0 #a435f0 inset;
+        }
+    }
+}
+@media(max-width:750px){
+    .main-container-nav-courses-performance{
+        display: none;
+    }
+}

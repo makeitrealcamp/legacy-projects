@@ -1,0 +1,55 @@
+.main-container-create-class{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid $black;
+    margin: 20px 0;
+
+    .container-btn-title-create-course{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid $black;
+        padding: 10px;
+
+        .create-class-title{
+            font-size: 18px;
+            font-family: $Noto-Sans;
+            color: $black;
+            font-weight: 700;
+        }
+        .create-class-btn{
+            background-color: $white;
+            border: 1px solid $black;
+            font-family: $Noto-Sans;
+            padding: 10px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+    }
+    .container-class-edit{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        gap: 15px;
+        .main-container-class-edit-modal{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+        .btn-class-edit-modal{
+            cursor: move;
+            width: 5%;
+            background-color: $white;
+            border-bottom: 1px solid $black;
+            border-top: 1px solid $black;
+            border-right: 1px solid $black;
+            border-left: none;
+            outline: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+    }
+}

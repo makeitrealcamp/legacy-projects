@@ -1,0 +1,33 @@
+.opacity-manage{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: $black;
+    opacity: 0.3;
+    height: 100vh;
+}
+.main-container-class-edit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid $black;
+    padding: 10px;
+    width: 100%;
+    .title-class-edit{
+        font-family: $Noto-Sans;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .btn-class-edit{
+        background-color: #A435F0;
+        color: $white;
+        font-family: $Noto-Sans;
+        font-size: 16px;
+        font-weight: 700;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,29 @@
+.form-search-instructor-courses{
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    width: 100%;
+    .input-search-instructor-courses{
+        padding: 0 16px;
+        font-weight: 400;
+        height: 100%;
+        outline: none;
+        width: 100%;
+        max-width: 186px;
+        color: gray;
+        border: 1px solid $black;
+    }
+    .btn-search-instructor-courses{
+        height: 100%;
+        background-color: $black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 48px;
+        font-size: 16px;
+        cursor: pointer;
+        font-size: 24px;
+        border: none;
+        color: $white;
+    }
+}

@@ -1,0 +1,24 @@
+.btn-courses-slider{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background-color: $black;
+    font-size: 32px;
+    color: $white;
+    z-index: 1;
+    border: 1px solid $black;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+}
+.btn-left-courses{
+    left: -15px;
+    top: 18%;
+}
+.btn-right-courses{
+    right: -15px;
+    top: 18%;
+}

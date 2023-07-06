@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap') format('opentype');
+}
+@font-face{
+    font-family: 'Noto Serif Georgian';
+    src:url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@700&display=swap') format('opentype');;
+}
+$Noto-Sans:'Noto Sans', sans-serif;
+$Noto-Serif-Georgian:'Noto Serif Georgian', serif;
+$main-purple:#5624d0;
+$white:white;
+$black:black;

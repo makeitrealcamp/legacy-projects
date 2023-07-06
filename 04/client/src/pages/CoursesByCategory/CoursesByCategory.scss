@@ -1,0 +1,28 @@
+.category-title-container{
+  background-color: black;
+  color: #fff;
+  padding: 32px 16px 16px 32px;
+  margin-bottom: 30px;
+  h2{
+    padding: 0 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: $white;
+    max-width: 600px;
+    font-size: 44px;
+    font-family: $Noto-Serif-Georgian;
+    @media(max-width: 530px){
+        font-size: 32px;
+    }
+  }
+}
+
+.coursesbycategory-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 30px;
+}
