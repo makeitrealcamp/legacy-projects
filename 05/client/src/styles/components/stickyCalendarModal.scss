@@ -1,0 +1,83 @@
+.stickRentCalendar {
+  padding: 0px 20px;
+
+  .headerContainer {
+    padding: 0px 0px 16px 16px;
+    display: flex;
+    justify-content: space-between;
+
+    .sectionHeader {
+      width: 40%;
+      .dateTitle {
+        font-size: 22px;
+      }
+      .dateHeader {
+        height: 40px;
+        padding: 8px 0px 0px;
+        font-family: "Cereal Book";
+      }
+    }
+    .section {
+      display: flex;
+      width: 58%;
+      border: 1px solid rgb(136, 136, 136);
+      border-radius: 8px;
+      .checkFlexI {
+        width: 50%;
+        position: relative;
+        text-align: start;
+      }
+      #i2 {
+        border-left: 1px solid rgb(136, 136, 136);
+      }
+      .check {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        font-weight: bold;
+        font-size: 10px;
+      }
+      .checkText {
+        padding: 26px 12px 10px;
+        font-size: 14px;
+      }
+    }
+  }
+  .rentCalendarBtns {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 34px;
+    .clearDate {
+      font-size: 14px;
+      padding: 8px;
+      border-radius: 5px;
+    }
+    .closeBt{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        font-size: 14px;
+      padding: 8px;
+      border-radius: 5px;
+    }
+    .clearDate:hover {
+      background-color: rgb(235, 232, 232);
+    }
+
+    .amenitiesElement {
+      .ameElemFlex {
+        padding-bottom: 0px;
+        svg {
+          height: 24px;
+          width: 24px;
+          fill: currentcolor;
+          margin-right: 16px;
+        }
+        .amenitie {
+          font-size: 16px;
+          font-weight: lighter;
+        }
+      }
+    }
+  }
+}

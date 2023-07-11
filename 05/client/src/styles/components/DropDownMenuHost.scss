@@ -1,0 +1,24 @@
+.DropDownMenuHost{
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    border: none;
+
+    &__Link{
+        display: flex;
+        justify-content: flex-start;
+        color: black;
+        padding: 15px 30px;
+        &:hover{
+            background-color: var(--grey-med);
+            cursor: pointer;
+        }
+    }
+
+    & a{
+        display: flex;
+        justify-content: flex-start;
+        color:black;
+    }
+}
+

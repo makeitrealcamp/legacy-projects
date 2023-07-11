@@ -1,0 +1,13 @@
+.footerRentContainer{
+    height: 400px;
+    padding: 48px;
+    background-color: rgb(233, 232, 232);
+    .footerTitle{
+        padding-bottom: 12px;
+    }
+    .footerFlex{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+}

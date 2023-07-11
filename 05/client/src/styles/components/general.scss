@@ -1,0 +1,169 @@
+.rentHostData {
+  padding: 48px 0px 24px;
+  height: 56px;
+  width: 87%;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: revert;
+}
+
+.rentData {
+  /*display: flex;
+  flex-direction: column;
+  justify-content: space-between;*/
+  height: auto;
+  margin: 0px;
+
+  .rentHost h2 {
+    font-weight: normal;
+    font-size: 22px;
+    box-sizing: border-box;
+    margin: 0px;
+    justify-content: flex-start;
+  }
+
+  ol {
+    list-style-type: none;
+    margin: 0px;
+    display: flex;
+    padding: 10px 0px;
+    align-self: flex-end;
+    font-weight: lighter;
+  }
+}
+
+.rentProfileImg {
+  
+
+  .rentProfileBtn {
+    height: 56px;
+    width: 56px;
+    margin: 0px;
+    background-color: transparent;
+    border: none;
+    position: absolute;
+  }
+  .pimg {
+    height: 56px;
+    width: 56px;
+    margin: 0px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    object-fit: cover;
+    vertical-align: bottom;
+  }
+}
+
+.highlightsContainer {
+  margin: 0px;
+}
+.highlightsStyleContainer {
+  padding: 32px 0px;
+
+  .highlight {
+    display: flex;
+    margin-bottom: 24px;
+    svg {
+      display: block;
+      height: 24px;
+      width: 24px;
+      fill: currentColor;
+    }
+  }
+  .highlightStyle {
+    margin: 0px 0px 0px 16px;
+    .hi1 {
+      font-size: 16px;
+    }
+    .hi2 {
+      font-size: 14px;
+      margin: 4px 0px 0px 0px;
+      font-weight: lighter;
+    }
+  }
+
+  .airCoverImg {
+    height: 26px;
+    margin-bottom: 16px;
+  }
+  .airCoverText {
+    font-weight: lighter;
+    margin-bottom: 16px;
+  }
+  .airCoverBtn {
+    padding: 0;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
+
+.traduction {
+  padding-top: 32px;
+  display: flex;
+
+  svg {
+    display: block;
+    height: 16px;
+    width: 16px;
+    fill: currentColor;
+  }
+
+  .traductionText {
+    padding: 0;
+    margin-left: 12px;
+    font-weight: lighter;
+    font-size: 16px;
+  }
+  .traductionBtn {
+    padding: 0;
+    font-size: 16px;
+  }
+}
+
+.rentDescription {
+  padding-top: 32px;
+  padding-bottom: 48px;
+  font-size: 16px;
+  
+  line-height: 24px;
+
+  .rentDescriptionTxt {
+    font-family: 'Cereal Book';
+    font-weight: lighter;
+    padding: 0;
+  }
+
+  .descriptionMore {
+    margin-top: 16px;
+
+    .descriptionBtn {
+      padding: 0;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+}
+.descBtnFlex {
+  display: inline-flex;
+  vertical-align: bottom;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+
+  .descBtnTxt {
+    padding: 0;
+  }
+  .descSvg {
+    padding: 0;
+    margin-left: 4px;
+
+    svg {
+      height: 12px;
+      width: 12px;
+      padding: 0;
+    }
+  }
+}

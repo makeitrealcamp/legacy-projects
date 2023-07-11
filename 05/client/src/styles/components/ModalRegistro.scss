@@ -1,0 +1,79 @@
+.containerRegistro {
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+
+    label{
+        
+        padding-left: 30px;
+        height: 20px;
+        
+    }
+    h1 {
+        margin: 30px 0;
+    }
+    p {
+        width: 80%;
+        padding: 5px 2px;
+        padding-left: 30px;
+        font-size: 10px;
+        line-height: 90%;
+        color:rgb(140,140,140);
+    }
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    border: solid #eee 2px;
+    background: #ffffff;
+    color: darkgray;
+    text-align: left;
+    width: 340px;
+    height: 70px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 0px 10px;
+}
+
+.aceptarButton {
+    cursor: pointer;
+    background-color: #db2f77;
+    color: white;
+    width: 89%;
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: solid 1px #db2f77;
+}
+
+.wrapper {
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+    span {
+        position: absolute;
+        left: 30px;
+        font-size: small
+    }
+    .loginEmail {
+
+        color: black;
+        width: 88%;
+        height: 45px;
+      
+        border-radius: 10px;
+        padding: 6px 0 0 5px;
+        margin-left: 25px;
+        border: solid 1px black;
+    }
+
+}
+.wrapperDatePicker{
+    width: 100%;
+    margin-top: 10px;
+   
+}

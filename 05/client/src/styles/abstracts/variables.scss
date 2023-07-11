@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'Cereal Medium';
+	src: url(../fonts/cereal/AirbnbCereal_W_Md.otf);
+}
+
+@font-face {
+	font-family: 'Cereal Book';
+	src: url(../fonts/cereal/AirbnbCereal_W_Bk.otf);
+}
+
+@font-face {
+	font-family: 'Cereal Bold';
+	src: url(../fonts/cereal/AirbnbCereal_W_Bd.otf);
+}
+
+@font-face {
+	font-family: 'Cereal Light';
+	src: url(../fonts/cereal/AirbnbCereal_W_Lt.otf);
+}
+
+:root {
+	--grey-med: #ddd;
+	--grey-light: #f7f7f7;
+	--grey-text-light: #717171;
+	--grey-text-dark: #222;
+	--pink: #ff385c;
+    --padding-main: 0 80px;
+    --padding-list: 0 24px;
+}

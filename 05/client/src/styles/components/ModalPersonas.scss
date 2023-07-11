@@ -1,0 +1,21 @@
+
+.itemPersona {
+    display: flex;
+    flex-direction: row;
+    color: darkgray;
+    text-align: left;
+    width: 340px;
+    height: 70px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 0px 10px;
+  }
+  
+  .container {
+    font-family: "Roboto";
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   font-size: 14px;
+  }

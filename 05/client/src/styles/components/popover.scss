@@ -1,0 +1,26 @@
+#aqui{
+    z-index: 1000;
+}
+
+.pop__wraper{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    padding: 10px 80px 0px 80px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.pop__wraper__dark{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    padding: 10px 80px 0px 80px;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(25, 25, 25, 0.1);
+}
+
+.mantine-Popover-dropdown{
+    border-top: transparent;
+}

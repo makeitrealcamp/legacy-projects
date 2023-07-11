@@ -1,0 +1,102 @@
+.modalReserveContainer{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  .reserver{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.reserve {
+    margin-top: 60px;
+    height: 48px;
+    width: 50%;
+    .reserveBtn {
+      height: 100%;
+    width: 100%;
+      background-color: rgb(255, 56, 92);
+      border: none;
+      border-radius: 8px;
+    }
+    .reserveIt {
+      color: white;
+      font-size: 16px;
+      font-weight: lighter;
+      font-family: "Cereal Book";
+    }
+    .enableBtn{
+      cursor: not-allowed;
+    }
+     
+  }
+}
+.reserveContainer{
+    margin: 15px 80px 15px 80px ;
+    width: 45%;
+    
+    .hr1{
+        width: 100%;
+        color: rgb(216, 213, 213);
+    }
+    .title{
+        margin-bottom: 20px;
+    }
+    .subTitle{
+        margin-bottom: 18px;
+    }
+    .flexContainer{
+        display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    }
+    
+    .section2 {
+    width: 100%;
+    height: 20px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+  }
+  .totals {
+    height: 161px;
+    width: 100%;
+    margin-top: 24px;
+  }
+  .section1 {
+    width: 100%;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .values {
+      display: flex;
+      justify-content: space-between;
+    }
+    .valuesBtn {
+      border: none;
+      background-color: transparent;
+      font-size: 16px;
+      padding-left: 0px;
+      font-weight: lighter;
+      font-family: "Roboto", sans-serif;
+      padding: 0px;
+      .nightValues{
+        display: flex;
+        text-align: left;
+        
+      }
+    }
+    .valueResult {
+      font-weight: lighter;
+      font-family: "Roboto", sans-serif;
+      font-size: 16px;
+      padding: 0px;
+      text-align: right;
+      
+    }
+  }
+}
+
+ 

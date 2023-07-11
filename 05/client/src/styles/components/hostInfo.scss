@@ -1,0 +1,55 @@
+.hostInfoBox {
+  display: flex;
+  padding: 48px 0px 48px 0px;
+}
+.hostInfoContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  .hostInfoFlex {
+    display: flex;
+    padding-bottom: 20px;
+    .profileImg {
+      img {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+      }
+    }
+    .user {
+      margin-left: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      .userName {
+        .h3 {
+          font-weight: lighter;
+        }
+      }
+      .userRegister {
+        color: #717171;
+      }
+    }
+  }
+  .hostInfoContact {
+    .contactTitle {
+      padding: 0px 0px 16px 0px;
+    }
+  }
+}
+.payAdviceContainer {
+  display: flex;
+  width: 35%;
+  height: auto;
+  .payAdviceIcon {
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .payAdviceText {
+    margin-left: 12px;
+    font-size: 12px;
+    color: #717171;
+  }
+}

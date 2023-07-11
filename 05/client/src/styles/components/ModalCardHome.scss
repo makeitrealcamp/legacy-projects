@@ -1,0 +1,85 @@
+.ModalCardHome{    
+
+    & h1{
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    & hr{
+        width: 100%;
+        border:none;
+        border-top: 1px solid var(--grey-med);
+        margin-bottom: 30px;
+    }
+
+    & h2{
+        margin-bottom: 20px;
+    }
+
+    &__row{
+        display: flex;
+        justify-content: flex-start;
+        column-gap: 25px;
+        font-family: 'Cereal Light';
+        color: var(--grey-text-light);
+        font-size: 15px;
+
+        &__img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: 1px solid transparent;
+            width: 50px;
+            height: 50px;
+    
+            & img{
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                object-fit: fill;
+            }
+        }
+    }
+
+    &__column{
+        display: flex;
+        flex-flow: column;
+        row-gap: 5px;
+
+        &__bold{
+            color:black;
+            font-family: 'Cereal Medium';
+            font-size: 18px;
+        }
+    }
+
+    &__hr__middle{
+        width: 100;
+        height: 4px;
+        margin-top: 15px;
+        background-color: var(--grey-med);
+    }
+
+    &__details{
+        display: flex;
+        flex-flow: column;
+
+        &__bold{
+            color: black;
+        }
+
+        &__light{
+            color: var(--grey-text-light);
+        }
+
+        &__line{
+            border: none;
+            border-top: 1px solid var(--grey-med);
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+    }
+
+
+}

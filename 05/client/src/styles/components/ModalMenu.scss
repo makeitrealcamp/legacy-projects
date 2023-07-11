@@ -1,0 +1,35 @@
+.containerMenu {
+    font-family: "Roboto";
+    display: flex;
+   // background: #f9f9f9;
+
+  // padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   // border: 2px solid black;
+    //border-radius: 30px;
+    width: 220px;
+    font-size: 14px;
+
+    button {
+        color: black;
+        font-weight: 100;
+        text-align: left;
+        border-color: #fff;
+        border-style: solid;
+        height: 40px;
+    }
+
+    button:first-of-type {
+
+        font-weight: 900;
+    }
+
+}
+
+hr {
+    width: 90%;
+    color: gray;
+}

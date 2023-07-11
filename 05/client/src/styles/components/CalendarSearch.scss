@@ -1,0 +1,33 @@
+.itemCalendario div {
+    background-color: #e1e1e1;
+    width: 124px;
+    padding: 2px;
+    border-radius: 15px;
+  }
+
+  .containerMapa {
+    font-family: "Roboto";
+    display: flex;
+    background: #f9f9f9;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .mutableFlex{
+    &.hidden{
+      visibility: collapse;
+    }
+  }
+  .mutablePick{
+    &.hidden{
+      visibility: collapse;
+    }
+  }
+    
+
+          
+       

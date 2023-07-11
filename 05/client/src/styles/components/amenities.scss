@@ -1,0 +1,50 @@
+.amenities {
+  padding: 48px 0px;
+  .amenitiesTxt {
+    padding-bottom: 24px;
+    h2 {
+      font-size: 22px;
+      font-weight: lighter;
+    }
+  }
+  .amenitiesFlex {
+    display: flex;
+    flex-wrap: wrap;
+    .ameniti{
+      padding: 0px 8px;
+      width: 50%;
+    }
+    .amenitiesElement {
+      
+      .ameElemFlex {
+        display: flex;
+        padding-bottom: 16px;
+        svg {
+          height: 24px;
+          width: 24px;
+          fill: currentcolor;
+          margin-right: 16px;
+        }
+        .amenitie{
+            font-size: 16px;
+            font-weight: lighter;
+        }
+
+      }
+    }
+  }
+}
+.ameBtn{
+    margin-top: 27px;
+    .ameButton{
+        padding: 13px 23px;
+        border: solid 1px;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .ameButton:hover{
+      background-color: rgb(235, 232, 232);
+      
+  }
+}

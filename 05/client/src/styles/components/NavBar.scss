@@ -1,0 +1,65 @@
+.header__nav{
+    flex: 1 0 140px;
+}
+
+    
+.header__nav{
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.header__nav__button-language-greyHover, .header__nav button{
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border-radius: 22px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    height: 48px;
+}
+
+.header__nav__button-greyHover:hover{
+    background: var(--grey-light);
+}
+
+.header__nav__button-language-greyHover:hover{
+    background: var(--grey-light);
+}
+
+.header__nav__button-language-greyHover img {
+    width: 16px;
+    height: 16px;
+}
+
+.header__nav__button-account {
+    background: transparent;   
+    border: 1px solid var(--grey-med);
+    height: 42px;    
+    border-radius: 22px;
+    padding: 5px 5px 5px 20px;
+    transition: box-shadow 0.2s ease; 
+    display: flex; 
+    align-items: center;  
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header__nav__button-account:hover{
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.18);
+}
+
+.header__nav__button-account img:first-child{
+    height: 16px;
+    width: 16px;
+}
+
+.header__nav__button-account img:last-child{
+    width: 30px;
+    height: 30px;
+    margin-left: 12px;
+}

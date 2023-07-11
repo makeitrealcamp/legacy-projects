@@ -34,7 +34,7 @@ https://youtu.be/Mdq2s9HLf00?list=PLxyfMWnjW2ktsDlYU7KVJltXGfHvXVGBE&t=1377
 - cloudinary
 - jsonwebtoken
 
-### Database
+## Database
 
 <img src="./.img/model.png">
 

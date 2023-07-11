@@ -1,0 +1,88 @@
+.CardHomeHost{
+    display: flex;
+    flex-flow: column;
+    width: 300px;
+    border: 1px solid var(--grey-med);
+    border-radius: 20px;
+
+    &__span{
+        width: 100%;
+        border:none;
+        border-top: 1px solid var(--grey-med);
+    }
+
+    &__row{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 25px;        
+        font-size: 18px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+
+        &:hover{
+            cursor: pointer;
+            background-color: var(--grey-light);
+        }
+
+        &__img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: 1px solid transparent;
+            width: 40px;
+            height: 40px;
+    
+            & img{
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                object-fit: fill;
+            }
+        }
+
+    }
+
+    &__column{
+        display: flex;
+        flex-flow: column;
+        row-gap: 5px;
+
+        & span{
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        &__ligth{   
+            width: 200px;       
+            font-family: 'Cereal Light';
+            font-size: 12px;
+            color: var(--grey-text-light);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+    &__message{
+        display: flex;
+        justify-content: center ;
+        align-items: center;
+        padding: 15px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+        &:hover{
+            cursor: pointer;
+            background-color: var(--grey-light);
+        }
+
+    }
+
+}
+
+// .mantine-Modal-modal{
+//     width: 550px;
+//     border-radius: 20px;
+// }

@@ -1,0 +1,21 @@
+.rentLocationContainer {
+  padding: 48px 0px 48px 0px;
+  .rentLocationTitle {
+    padding: 0px 0px 26px 0px;
+    h2 {
+      font-family: "Cereal Medium";
+      font-weight: lighter;
+      font-size: 22px;
+    }
+  }
+  .rentLocationInfo {
+    padding: 26px 0px 0px 0px;
+    h3 {
+      font-family: "Cereal Medium";
+      font-weight: lighter;
+    }
+    .rentLocationDesc{
+        padding: 20px 0px 0px 0px;
+    }
+  }
+}

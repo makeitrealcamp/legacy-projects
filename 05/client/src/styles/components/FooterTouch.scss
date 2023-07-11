@@ -1,0 +1,39 @@
+.footer_touch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 14px 24px 10px;
+    background-color: white;
+    border-top: solid 1px var(--grey-med);
+    overflow: hidden;
+    z-index: 4;
+}
+
+
+.footer_touch button{
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    row-gap: 5px;
+    align-items: center;
+    font-family: 'Cereal Light';
+    font-size: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.footer_touch svg{
+    height: 12px;
+    width: 12px;
+}
+
+@media (min-width:743px){
+    .footer_touch{
+        display: none;
+    }
+}

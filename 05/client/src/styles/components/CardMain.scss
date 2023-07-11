@@ -1,0 +1,90 @@
+.main__list__button{
+    // width: 300px;  
+    // min-width: 200px;  
+    width: 100%;
+    aspect-ratio: 1.05;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Cereal Medium';
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-color: white;
+
+    &__link{
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+.main__list__button__heart{
+    max-width: 100%;
+    aspect-ratio: 1.05;
+    display: inline-block;
+    position: relative;
+    font-family: 'Cereal Medium';
+    padding: 0px;
+    margin-bottom: 10px;
+    border: none; 
+
+}
+
+.main__list__button__heart img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.heart{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.main__list__button:hover{
+    cursor: pointer;
+}
+
+.main__list__button__qualy{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__list__button__qualy__star{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.main__list__button span{
+    padding-top: 2px;
+}
+
+span.bold{
+    font-size: 15px
+}
+
+span.nBold{
+    font-family: 'Cereal Light';
+    font-size: 15px;
+}
+
+span.light{
+    font-family: 'Cereal Light';
+    color: #717171;
+    font-size: 15px;
+}
+
+span.bold:last-child{
+    padding-top: 6px;
+}

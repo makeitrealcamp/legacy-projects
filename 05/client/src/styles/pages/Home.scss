@@ -1,0 +1,44 @@
+.main{
+    position: absolute;
+    padding: var(--padding-main);
+    padding-top: 20px;
+    padding-bottom: 80px;
+    top: 178px;
+    width: 100%;    
+    background-color: transparent;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 40px;
+    column-gap: 24px;
+
+    &__button{
+        width: 255px;
+        flex-grow: 1;
+    }
+
+    &__skeleton{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        column-gap: 15px;
+
+        &__each {
+            min-width: 300px;
+            height: 300px;
+            flex-grow: 1;
+        }
+    }
+}
+
+.boton_mapa{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    bottom: 90px;
+    justify-content: center;
+    z-index: 3;
+}
+

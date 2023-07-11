@@ -1,0 +1,41 @@
+.rentCalendar{
+    padding: 48px 0px;
+    .dateTitle{
+      font-size: 22px;
+    }
+    .dateHeader{
+      height: 40px;
+      padding: 8px 0px 0px;
+    }
+}
+.rentCalendarBtns {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  padding: 0px 34px;
+  .clearDate {
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;;
+  }
+  .clearDate:hover {
+    background-color: rgb(235, 232, 232);
+  }
+
+  .amenitiesElement {
+    .ameElemFlex {
+      padding-bottom: 0px;
+      svg {
+        height: 24px;
+        width: 24px;
+        fill: currentcolor;
+        margin-right: 16px;
+      }
+      .amenitie {
+        font-size: 16px;
+        font-weight: lighter;
+      }
+    }
+  }
+}

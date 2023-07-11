@@ -1,0 +1,24 @@
+
+.devFlex{
+    display: flex;
+    .profileImg{
+        img{
+            width: 70px;
+            border-radius: 50%;
+        }
+    }
+    .user{
+        margin-left: 10px;
+        .userName{
+            .h3{
+            }
+        }
+        .imgFlex{
+            display: flex;
+            justify-content: space-around;
+            img{
+                width: 40px;
+            }
+        }
+    }
+}

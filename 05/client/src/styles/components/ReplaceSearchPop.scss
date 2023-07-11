@@ -1,0 +1,18 @@
+.search__pop__replace{
+    display: flex;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid transparent;
+    background-color: white;
+    font-family: 'Cereal Light';
+    column-gap: 20px;
+
+    &span{
+        border: 1px solid transparent;
+    }
+
+    &__span:hover{
+        border-bottom: 1px solid black;
+    }
+}

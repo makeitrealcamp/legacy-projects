@@ -1,0 +1,113 @@
+.hostform{
+    &__gradient{
+        top:60px;
+        height: 150px;
+    }
+
+    &__form{
+        margin-top: 30px;
+        padding: 0px 80px;
+        padding-bottom: 80px;
+
+        & label{
+            margin-top: 10px;
+        }
+    }
+
+    &__inputtext{
+        display: none;
+    }
+
+    &__h1{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    &__mapcontainer{        
+      width: 100%;
+      height: 500px;
+      margin-top: 20px;
+      margin-bottom: 70px;
+
+      &__control{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;    
+        
+        & Input{
+            flex-grow: 1;
+        }
+        
+        & .mantine-Input-wrapper{
+            flex-grow: 1;
+        }
+
+        & button{
+            width: 150px;
+            color: white;
+            background-color: black ;
+            border-radius: 10px;
+        }
+      }
+    }
+
+    &__setmargin{
+        margin-bottom: 15px;
+    }
+
+    &__label{
+        padding: 10px;
+        color:white;
+        background-color: black;
+        border-radius: 10px;
+    }
+
+    &__imgprev{
+        display: flex;
+        margin-top: 20px;
+        justify-content: flex-start;    
+        column-gap: 10px; 
+        row-gap: 20px;
+        flex-wrap: wrap;
+        
+        &__card{
+            display: flex;
+            flex-flow: column;
+            row-gap: 5px;
+            align-items: center;
+            
+
+            & button{
+                width: 100px;
+                padding: 5px;
+                color:white;
+                background-color: black;
+                border-radius: 10px;
+                font-size: 10px;
+            }
+        }
+    }
+
+    &__submit{
+        width: 200px;
+        margin-top: 30px;
+        padding: 10px;
+        color:white;
+        background-color: black;
+        border-radius: 10px;
+    }
+
+    &__submit:hover{
+        cursor: pointer;
+    }
+}
+
+.hostform_loader{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}

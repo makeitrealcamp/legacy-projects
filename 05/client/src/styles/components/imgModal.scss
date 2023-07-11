@@ -1,0 +1,67 @@
+
+.headerSections {
+  width: 100%;
+  height: 28;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 24px;
+
+  .rentSection {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+
+    .descriptionBtn {
+      padding: 12px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+
+      .descSvg {
+        transform: rotate(180deg);
+        height: 12px;
+        width: 12px;
+      }
+    }
+    .descriptionBtn:hover {
+        background-color: rgb(235, 232, 232);
+      }
+
+    .hove {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding: 8px;
+      outline: none;
+      border: none;
+      background: transparent;
+      font-size: 14px;
+      border-radius: 5px;
+ 
+      .nFill {
+        padding: 0px 8px 0px 0px;
+        fill: none;
+        height: 16px;
+        width: 16px;
+        stroke: currentColor;
+        stroke-width: 2;
+        overflow: visible;
+        box-sizing: revert;
+      }
+    }
+    .hove:hover {
+      background-color: rgb(235, 232, 232);
+    }
+  }
+}
+.imgsContainer{
+    padding: 20px 0px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .houseImg{
+        width: auto
+    }
+
+}

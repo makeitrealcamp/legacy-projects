@@ -1,0 +1,15 @@
+.wraper__searchbar__pop{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+}
+
+.searchbar__pop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--grey-light);
+    border: none;
+    border-radius: 50px;
+}

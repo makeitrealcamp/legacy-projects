@@ -1,0 +1,33 @@
+.buttonLoginType {
+    width: 100%;
+    vertical-align: middle;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    background-position: 10px;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-left: 0px;
+    margin-top: 15px;
+    border: solid 1px black;
+    cursor: pointer;
+
+    &.facebook {
+        margin-top: 10px;
+        background-image: url('https://i.pinimg.com/736x/70/f9/36/70f936294a1f0f3949a9205df9340d5e.jpg');
+    }
+
+    &.google {
+        margin-top: 10px;
+        background-image: url('https://i.pinimg.com/564x/7e/a2/a0/7ea2a086cc5082330324a94c52a66531.jpg');
+    }
+
+    &.apple {
+        margin-top: 10px;
+        background-image: url('https://static.vecteezy.com/system/resources/previews/002/520/838/non_2x/apple-logo-black-isolated-on-transparent-background-free-vector.jpg');
+    }
+
+    &.telefono {
+        background-image: url('https://i.pinimg.com/564x/3a/82/af/3a82af6595b3cb588ae4b7597153dc17.jpg');
+    }
+}

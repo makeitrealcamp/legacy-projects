@@ -1,0 +1,104 @@
+.rentContainerImg {
+  height: 400px;
+  width: 100%;
+  margin: auto;
+  padding-top: 24px;
+  position: relative;
+}
+.ContainerImgStyle {
+  display: flex;
+  gap: 10px;
+
+  height: 100%;
+  margin: auto;
+
+  .mainImg {
+    width: 50%;
+    height: 100%;
+
+    #rentImg1 {
+      height: 100%;
+      width: 100%;
+      border-radius: 10px 0px 0px 10px;
+    }
+  }
+  .rentImg {
+    height: 50%;
+    width: 50%;
+  }
+  .secondaryImg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+    width: 50%;
+    height: 100%;
+
+    #rentImg2 {
+      height: 49%;
+      width: 49%;
+
+      object-fit: cover;
+    }
+    #rentImg3 {
+      height: 49%;
+      width: 49%;
+      object-fit: cover;
+
+      border-radius: 0px 10px 0px 0px;
+    }
+    #rentImg4 {
+      height: 49%;
+      width: 49%;
+      object-fit: cover;
+    }
+    #rentImg5 {
+      height: 49%;
+      width: 49%;
+      object-fit: cover;
+      border-radius: 0px 0px 10px 0px;
+    }
+  }
+}
+
+.moreImg {
+  width: 160px;
+  height: 34px;
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+
+  .moreBtn {
+    cursor: pointer;
+    display: flex;
+    width: 160px;
+    height: 34px;
+    border-radius: 10px;
+    background-color: white;
+    border-width: 1px;
+    margin: auto;
+  }
+  .morediv {
+    display: flex;
+    font-size: 14px;
+    font-family: var(--font-standard);
+    margin: auto;
+  }
+  .moretext {
+    margin-left: 8px;
+    align-self: center;
+  }
+  svg {
+    display: block;
+    height: 16px;
+    width: 16px;
+    fill: currentColor;
+  }
+}
+@media (max-width: 1128px) {
+  .rentContainerImg {
+    height: 418px;
+  }
+}

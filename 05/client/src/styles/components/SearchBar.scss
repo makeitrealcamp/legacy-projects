@@ -1,0 +1,72 @@
+.header__search {
+    display: inline-flex;
+    border-radius: 24px;
+    overflow: hidden;
+    align-items: center;
+    border: 1px solid var(--grey-med);
+    transition: box-shadow 0.2s ease;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.10);
+ 
+    
+}
+.header__search:hover {
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.20);
+}
+
+.header__search__button {
+    background: transparent;
+    height: 46px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    border: none;
+    font-family: 'Cereal Medium';
+    font-size: 14px;
+    cursor: pointer; 
+}
+
+.header__search__cualquier{
+    width: 13vw;
+    max-width: fit-content;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.header__search__semana{
+    width: 10vw;
+    max-width: fit-content;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.header__search__cuantos{
+    width: 5vw;
+    max-width: fit-content; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.header__search span {
+    width: 1px;
+    height: 24px;
+    background: var(--grey-med);
+}
+
+.header__searchIcon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: var(--pink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px;
+}
+
+.header__searchIcon img {
+    width: 12px;
+    height: 12px;
+}

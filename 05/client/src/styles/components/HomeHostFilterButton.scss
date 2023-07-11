@@ -1,0 +1,19 @@
+.HomeHostFilterButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cereal Light';
+    border: 1px solid var(--grey-med);
+    padding: 10px 15px;
+    border-radius: 20px;
+
+    &:hover{
+        border: 1px solid black;
+        cursor: pointer;
+    }
+}
+
+.HomeHostFilterButton--open{
+    background-color: var(--grey-med);
+    border: 1px solid black;
+}

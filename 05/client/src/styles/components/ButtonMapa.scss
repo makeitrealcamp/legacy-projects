@@ -1,0 +1,24 @@
+.boton_mapa_div{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    bottom: 90px;
+    justify-content: center;
+    z-index: 3;
+}
+
+.boton_mapa_button{
+    display: flex;
+    align-items: center;
+    height: 46px;
+    padding: 0 18px;
+    color: white;
+    background: #222;
+    font-family: 'Cereal Bold';
+    font-size: 14px;
+    border-radius: 25px;
+}
+
+.boton_mapa_button svg{
+    margin-left: 8px;
+}
