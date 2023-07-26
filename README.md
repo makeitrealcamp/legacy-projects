@@ -9,3 +9,4 @@ Lista de proyectos realizados por estudiantes de Make It Real
 - [Sillevon](./03/)
 - [Udemy](./04/)
 - [Airbnb](./05/)
+- [Hotel Booking](./06/)
